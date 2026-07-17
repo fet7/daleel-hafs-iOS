@@ -5,8 +5,6 @@
 //  Created by Feysel on 15/07/2026.
 //
 
-
-
 import SwiftUI
 
 // MARK: - Book Model
@@ -36,7 +34,8 @@ struct ShareSheet: UIViewControllerRepresentable {
 struct ContentView: View {
     @State private var showMenu = false
     @State private var searchText = ""
-    @State private var navigateToAbout = false
+    @State private var selectedBook: Book? = nil
+    @State private var showAbout = false
     @State private var showShareSheet = false
 
     let books: [Book] = [
@@ -91,82 +90,117 @@ struct ContentView: View {
     }
 
     var body: some View {
-        NavigationStack {
-            ScrollViewReader { scrollProxy in
-                ZStack {
-                    Color(.systemGroupedBackground).ignoresSafeArea()
+        ScrollViewReader { scrollProxy in
+            ZStack {
+                // MARK: Main layer
+                Color(.systemGroupedBackground).ignoresSafeArea()
 
-                    VStack(spacing: 0) {
-                        CustomNavigationBar(showMenu: $showMenu, searchText: $searchText)
+                VStack(spacing: 0) {
+                    CustomNavigationBar(showMenu: $showMenu, searchText: $searchText)
 
-                        ScrollView {
-                            Color.clear.frame(height: 0).id("top")
-                            LazyVStack(spacing: 12) {
-                                ForEach(filteredBooks) { book in
-                                    NavigationLink(destination: ReaderView(fileName: book.fileName)
-                                        .environment(\.layoutDirection, .rightToLeft)) {
-                                        BookCardView(book: book)
+                    ScrollView {
+                        Color.clear.frame(height: 0).id("top")
+                        LazyVStack(spacing: 12) {
+                            ForEach(filteredBooks) { book in
+                                BookCardView(book: book)
+                                    .onTapGesture {
+                                        withAnimation(.easeInOut(duration: 0.35)) {
+                                            selectedBook = book
+                                        }
                                     }
-                                    .buttonStyle(PlainButtonStyle())
-                                }
                             }
-                            .padding(.vertical, 16)
                         }
-                    }
-
-                    // FAB – scroll to top
-                    VStack {
-                        Spacer()
-                        HStack {
-                            Button(action: {
-                                withAnimation { scrollProxy.scrollTo("top", anchor: .top) }
-                            }) {
-                                Image(systemName: "chevron.up")
-                                    .font(.title2.bold())
-                                    .foregroundColor(.white)
-                                    .frame(width: 56, height: 56)
-                                    .background(Color.brandTeal)
-                                    .clipShape(Circle())
-                                    .shadow(color: Color.black.opacity(0.3), radius: 4, x: 0, y: 3)
-                            }
-                            .padding(.leading, 20)
-                            .padding(.bottom, 20)
-                            Spacer()
-                        }
-                    }
-
-                    // Sidebar overlay
-                    if showMenu {
-                        Color.black.opacity(0.4).ignoresSafeArea()
-                            .onTapGesture {
-                                withAnimation(.easeInOut) { showMenu = false }
-                            }
-                        HStack {
-                            Spacer()
-                            SideMenuView(showMenu: $showMenu) { item in
-                                switch item {
-                                case "about":
-                                    navigateToAbout = true
-                                case "share":
-                                    showShareSheet = true
-                                default:
-                                    break
-                                }
-                            }
-                            .transition(.move(edge: .trailing))
-                        }
-                        .ignoresSafeArea()
+                        .padding(.vertical, 16)
                     }
                 }
-                .navigationBarHidden(true)
-                .sheet(isPresented: $showShareSheet) {
-                    ShareSheet(items: ["تطبيق دليل حفص لتعلم التجويد"])
+
+                // MARK: FAB
+                VStack {
+                    Spacer()
+                    HStack {
+                        Button {
+                            withAnimation { scrollProxy.scrollTo("top", anchor: .top) }
+                        } label: {
+                            Image(systemName: "chevron.up")
+                                .font(.title2.bold())
+                                .foregroundColor(.white)
+                                .frame(width: 56, height: 56)
+                                .background(Color.brandTeal)
+                                .clipShape(Circle())
+                                .shadow(color: .black.opacity(0.3), radius: 4, x: 0, y: 3)
+                        }
+                        .padding(.leading, 20)
+                        .padding(.bottom, 20)
+                        Spacer()
+                    }
+                }
+
+                // MARK: Reader overlay (book open animation)
+                if let book = selectedBook {
+                    ReaderContainer(
+                        fileName: book.fileName,
+                        title: book.title,
+                        onClose: {
+                            withAnimation(.easeInOut(duration: 0.35)) {
+                                selectedBook = nil
+                            }
+                        }
+                    )
+                    .transition(.asymmetric(
+                        insertion: .move(edge: .leading),
+                        removal: .move(edge: .leading)
+                    ))
+                    .zIndex(2)
+                }
+
+                // MARK: About overlay
+                if showAbout {
+                    ReaderContainer(
+                        fileName: "عن التطبيق",
+                        title: "عن التطبيق",
+                        onClose: {
+                            withAnimation(.easeInOut(duration: 0.35)) {
+                                showAbout = false
+                            }
+                        }
+                    )
+                    .transition(.asymmetric(
+                        insertion: .move(edge: .leading),
+                        removal: .move(edge: .leading)
+                    ))
+                    .zIndex(2)
+                }
+
+                // MARK: Menu overlay
+                if showMenu {
+                    Color.black.opacity(0.4)
+                        .ignoresSafeArea()
+                        .onTapGesture {
+                            withAnimation(.easeInOut) { showMenu = false }
+                        }
+                        .zIndex(3)
+
+                    HStack {
+                        Spacer()
+                        SideMenuView(showMenu: $showMenu) { item in
+                            switch item {
+                            case "about":
+                                withAnimation(.easeInOut(duration: 0.35)) { showAbout = true }
+                            case "share":
+                                showShareSheet = true
+                            default:
+                                break
+                            }
+                        }
+                        .transition(.move(edge: .trailing))
+                        .zIndex(4)
+                    }
+                    .ignoresSafeArea()
                 }
             }
-        }
-        .navigationDestination(isPresented: $navigateToAbout) {
-            ReaderView(fileName: "عن التطبيق")
-                .environment(\.layoutDirection, .rightToLeft)
+            .sheet(isPresented: $showShareSheet) {
+                ShareSheet(items: ["تطبيق دليل حفص لتعلم التجويد"])
+            }
         }
     }
 }
@@ -278,12 +312,41 @@ struct BookCardView: View {
                 .frame(height: 32)
                 .frame(maxWidth: .infinity, alignment: .center)
         }
-        .environment(\.layoutDirection, .rightToLeft)
         .padding()
         .background(Color.appBackground)
         .cornerRadius(8)
         .shadow(color: Color.black.opacity(0.05), radius: 3, x: 0, y: 1)
         .padding(.horizontal, 16)
+    }
+}
+
+// MARK: - Reader Container (System-style back button, RTL positioned)
+struct ReaderContainer: View {
+    let fileName: String
+    let title: String
+    let onClose: () -> Void
+
+    var body: some View {
+        NavigationStack {
+            ReaderView(fileName: fileName)
+                .ignoresSafeArea(edges: .bottom)
+                .navigationTitle(title)
+                .navigationBarTitleDisplayMode(.inline)
+                .navigationBarBackButtonHidden(true)
+                .toolbar {
+                    ToolbarItem(placement: .topBarLeading) { 
+                        Button(action: onClose) {
+                            Image(systemName: "chevron.backward")
+                                .font(.system(size: 17, weight: .semibold))
+                                .foregroundColor(.primary)
+                                .frame(width: 32, height: 32)
+                                .background(Color(.systemGray5))
+                                .clipShape(Circle())
+                        }
+                    }
+                }
+        }
+        .environment(\.layoutDirection, .rightToLeft)
     }
 }
 
@@ -325,7 +388,7 @@ struct SideMenuView: View {
                     }
                     DrawerItem(icon: "envelope.fill", title: "تواصل معنا") { }
                     Divider()
-                    DrawerItem(icon: "multiply.circle.fill", title: "خروج") {
+                    DrawerItem(icon: "multiply.circle.fill", title: "خروج", isDestructive: true) {
                         showMenu = false
                     }
                 }
