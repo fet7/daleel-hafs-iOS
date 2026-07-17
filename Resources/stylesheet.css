@@ -1,0 +1,199 @@
+
+@media only screen and (max-width: 600px) {
+h2 {
+  font-size:22px;
+}
+h3 {
+  font-size:20px;
+}
+h4, p, ul, ol , a:link, a:visited, a:active, th, td {
+  font-size:18px;
+}
+}
+
+@media only screen and (min-width: 600px) {
+h2 {
+  font-size:30px;
+}
+h3 {
+  font-size:25px;
+}
+h4, p, ul, ol , a:link, a:visited, a:active, th, td  {
+  font-size:23px;
+}
+}
+
+@font-face {
+    font-family: 'hacen';
+    src: url('fhacen.ttf');
+}
+
+@font-face {
+    font-family: 'hafs';
+    src: url('fhafs.otf');
+}
+
+h1, h2, h3, h4 {
+    font-family: hacen;
+    color:  #008577;
+    text-align: justify;
+    margin: 10px;
+}
+
+p, ul, ol {
+    font-family: hacen;
+	color: black;
+	text-align: justify;
+	margin: 10px;
+}
+
+span {
+    font-family: 'hafs';
+}
+
+table {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  direction: rtl;
+  
+}
+
+table, th, td {
+  border-collapse: collapse;
+  border: 2px solid #ddd;  
+}
+
+th, td {
+  text-align: right;
+  font-family: hacen;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top:2px;
+  padding-bottom: 2px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.numbering {
+text-align:center;
+color: #008577;
+width: 25px;
+}
+
+table tr:nth-child(even) {
+  background-color: #E9FCEC;
+}
+
+table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table th {
+  color: white;
+  background-color: #008577;
+}
+
+table#t01 th {
+  background-color: #008577;
+}
+
+table#t01 td {
+   background-color: white;
+   border: 1px solid black;
+}
+
+
+table#t02 th {
+	border-bottom: 3px solid #008577;
+	color: #008577;
+	background-color: white;
+}
+
+table#t02 td {
+	text-align: justify;
+	text-align-last: justify;
+	vertical-align: middle;
+	background-color: white;
+	white-space: nowrap;
+}
+
+a:link, a:visited, a:active {
+     font-family: hacen;     
+	 color: blue;
+     text-decoration: none;
+     text-align: justify;
+     margin: 10px;
+ }
+ 
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    max-width: 100%;
+	max-height: 100%;
+}
+
+.myNav a:link, .myNav a:visited, .myNav a:active {
+	 font-family: hacen;
+     color:  #008577;
+     text-decoration: none;
+     text-align: justify;
+     margin: 10px;
+}
+
+.myDiv {
+	direction: rtl;
+	display: inline-block;
+	margin: 0 auto; 
+	padding: 10px; 
+	border: 3px solid #555; 
+	border-radius: 25px;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.myDivTable {
+	display: inline-block; 
+	margin: 0 auto; 
+	overflow: scroll;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.Mytable {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  direction: rtl;
+}
+.myDivTable2 {
+	display: inline-block; 
+	margin: 0 auto; 
+	width: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.myTitles{	
+	color: black;
+	direction: RTL;
+	text-align: center;	
+	border: 1px solid #555; 
+	border-radius: 25px;
+}
+
+.myImg { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}	
+
+
+

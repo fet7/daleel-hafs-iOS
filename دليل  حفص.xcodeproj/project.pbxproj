@@ -6,6 +6,432 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BA987C643008D1270018A94E /* fhacen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD73008D1270018A94E /* fhacen.ttf */; };
+		BA987C653008D1270018A94E /* التحفة السمنودية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3C3008D1270018A94E /* التحفة السمنودية.html */; };
+		BA987C663008D1270018A94E /* p46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C023008D1270018A94E /* p46.jpg */; };
+		BA987C673008D1270018A94E /* علاقة الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5A3008D1270018A94E /* علاقة الحروف.html */; };
+		BA987C683008D1270018A94E /* p21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEA3008D1270018A94E /* p21.jpg */; };
+		BA987C693008D1270018A94E /* p22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEB3008D1270018A94E /* p22.jpg */; };
+		BA987C6A3008D1270018A94E /* p28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF13008D1270018A94E /* p28.jpg */; };
+		BA987C6B3008D1270018A94E /* p37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF93008D1270018A94E /* p37.jpg */; };
+		BA987C6C3008D1270018A94E /* v26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C333008D1270018A94E /* v26.mp3 */; };
+		BA987C6D3008D1270018A94E /* p17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE63008D1270018A94E /* p17.jpg */; };
+		BA987C6E3008D1270018A94E /* v31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C383008D1270018A94E /* v31.mp3 */; };
+		BA987C6F3008D1270018A94E /* v4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1D3008D1270018A94E /* v4.mp3 */; };
+		BA987C703008D1270018A94E /* p18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE73008D1270018A94E /* p18.jpg */; };
+		BA987C713008D1270018A94E /* p47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C033008D1270018A94E /* p47.jpg */; };
+		BA987C723008D1270018A94E /* القرءان الكريم.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C413008D1270018A94E /* القرءان الكريم.html */; };
+		BA987C733008D1270018A94E /* التقاء الساكنين.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3E3008D1270018A94E /* التقاء الساكنين.html */; };
+		BA987C743008D1270018A94E /* تحفة الأطفال.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C533008D1270018A94E /* تحفة الأطفال.html */; };
+		BA987C753008D1270018A94E /* p106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C183008D1270018A94E /* p106.jpg */; };
+		BA987C763008D1270018A94E /* ضبط المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C593008D1270018A94E /* ضبط المصحف.html */; };
+		BA987C773008D1270018A94E /* v23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C303008D1270018A94E /* v23.mp3 */; };
+		BA987C783008D1270018A94E /* v28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C353008D1270018A94E /* v28.mp3 */; };
+		BA987C793008D1270018A94E /* p06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDC3008D1270018A94E /* p06.jpg */; };
+		BA987C7A3008D1270018A94E /* p48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C043008D1270018A94E /* p48.jpg */; };
+		BA987C7B3008D1270018A94E /* المقدمة الجزرية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C493008D1270018A94E /* المقدمة الجزرية.html */; };
+		BA987C7C3008D1270018A94E /* p33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF63008D1270018A94E /* p33.jpg */; };
+		BA987C7D3008D1270018A94E /* p30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF33008D1270018A94E /* p30.jpg */; };
+		BA987C7E3008D1270018A94E /* عن التطبيق.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5B3008D1270018A94E /* عن التطبيق.html */; };
+		BA987C7F3008D1270018A94E /* بيان المكي والمدني.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C513008D1270018A94E /* بيان المكي والمدني.html */; };
+		BA987C803008D1270018A94E /* اللحن وأقسامه.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C463008D1270018A94E /* اللحن وأقسامه.html */; };
+		BA987C813008D1270018A94E /* p14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE33008D1270018A94E /* p14.jpg */; };
+		BA987C823008D1270018A94E /* v22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2F3008D1270018A94E /* v22.mp3 */; };
+		BA987C833008D1270018A94E /* v5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1E3008D1270018A94E /* v5.mp3 */; };
+		BA987C843008D1270018A94E /* v29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C363008D1270018A94E /* v29.mp3 */; };
+		BA987C853008D1270018A94E /* p19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE83008D1270018A94E /* p19.jpg */; };
+		BA987C863008D1270018A94E /* v14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C273008D1270018A94E /* v14.mp3 */; };
+		BA987C873008D1270018A94E /* p13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE23008D1270018A94E /* p13.jpg */; };
+		BA987C883008D1270018A94E /* نونية السخاوي.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C603008D1270018A94E /* نونية السخاوي.html */; };
+		BA987C893008D1270018A94E /* p50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C063008D1270018A94E /* p50.jpg */; };
+		BA987C8A3008D1270018A94E /* p58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0C3008D1270018A94E /* p58.jpg */; };
+		BA987C8B3008D1270018A94E /* p55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0B3008D1270018A94E /* p55.jpg */; };
+		BA987C8C3008D1270018A94E /* p39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFB3008D1270018A94E /* p39.jpg */; };
+		BA987C8D3008D1270018A94E /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = BA987C193008D1270018A94E /* stylesheet.css */; };
+		BA987C8E3008D1270018A94E /* p43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFF3008D1270018A94E /* p43.jpg */; };
+		BA987C8F3008D1270018A94E /* قصر المنفصل.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5C3008D1270018A94E /* قصر المنفصل.html */; };
+		BA987C903008D1270018A94E /* p98.png in Resources */ = {isa = PBXBuildFile; fileRef = BA987C103008D1270018A94E /* p98.png */; };
+		BA987C913008D1270018A94E /* p49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C053008D1270018A94E /* p49.jpg */; };
+		BA987C923008D1270018A94E /* الوقف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4D3008D1270018A94E /* الوقف.html */; };
+		BA987C933008D1270018A94E /* p60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0E3008D1270018A94E /* p60.jpg */; };
+		BA987C943008D1270018A94E /* ما يراعى لحفص.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5E3008D1270018A94E /* ما يراعى لحفص.html */; };
+		BA987C953008D1270018A94E /* p99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C113008D1270018A94E /* p99.jpg */; };
+		BA987C963008D1270018A94E /* p53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C093008D1270018A94E /* p53.jpg */; };
+		BA987C973008D1270018A94E /* p32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF53008D1270018A94E /* p32.jpg */; };
+		BA987C983008D1270018A94E /* p101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C133008D1270018A94E /* p101.jpg */; };
+		BA987C993008D1270018A94E /* الوقف على أواخر الكلم.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4E3008D1270018A94E /* الوقف على أواخر الكلم.html */; };
+		BA987C9A3008D1270018A94E /* بهجة اللُّحَاظِ.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C503008D1270018A94E /* بهجة اللُّحَاظِ.html */; };
+		BA987C9B3008D1270018A94E /* رسم المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C563008D1270018A94E /* رسم المصحف.html */; };
+		BA987C9C3008D1270018A94E /* p59.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0D3008D1270018A94E /* p59.jpg */; };
+		BA987C9D3008D1270018A94E /* p27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF03008D1270018A94E /* p27.jpg */; };
+		BA987C9E3008D1270018A94E /* p25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEE3008D1270018A94E /* p25.jpg */; };
+		BA987C9F3008D1270018A94E /* مخارج وألقاب الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5F3008D1270018A94E /* مخارج وألقاب الحروف.html */; };
+		BA987CA03008D1270018A94E /* الميم الساكنة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4B3008D1270018A94E /* الميم الساكنة.html */; };
+		BA987CA13008D1270018A94E /* صفات الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C583008D1270018A94E /* صفات الحروف.html */; };
+		BA987CA23008D1270018A94E /* v18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2B3008D1270018A94E /* v18.mp3 */; };
+		BA987CA33008D1270018A94E /* p23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEC3008D1270018A94E /* p23.jpg */; };
+		BA987CA43008D1270018A94E /* المفيد في التجويد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C483008D1270018A94E /* المفيد في التجويد.html */; };
+		BA987CA53008D1270018A94E /* v1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1A3008D1270018A94E /* v1.mp3 */; };
+		BA987CA63008D1270018A94E /* p52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C083008D1270018A94E /* p52.jpg */; };
+		BA987CA73008D1270018A94E /* p16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE53008D1270018A94E /* p16.jpg */; };
+		BA987CA83008D1270018A94E /* v8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C213008D1270018A94E /* v8.mp3 */; };
+		BA987CA93008D1270018A94E /* p08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDE3008D1270018A94E /* p08.jpg */; };
+		BA987CAA3008D1270018A94E /* p54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0A3008D1270018A94E /* p54.jpg */; };
+		BA987CAB3008D1270018A94E /* الابتداء.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C393008D1270018A94E /* الابتداء.html */; };
+		BA987CAC3008D1270018A94E /* v7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C203008D1270018A94E /* v7.mp3 */; };
+		BA987CAD3008D1270018A94E /* القراءات.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C433008D1270018A94E /* القراءات.html */; };
+		BA987CAE3008D1270018A94E /* تاء وهاء التأنيث.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C523008D1270018A94E /* تاء وهاء التأنيث.html */; };
+		BA987CAF3008D1270018A94E /* p102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C143008D1270018A94E /* p102.jpg */; };
+		BA987CB03008D1270018A94E /* v13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C263008D1270018A94E /* v13.mp3 */; };
+		BA987CB13008D1270018A94E /* v25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C323008D1270018A94E /* v25.mp3 */; };
+		BA987CB23008D1270018A94E /* سلسلة السند.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C573008D1270018A94E /* سلسلة السند.html */; };
+		BA987CB33008D1270018A94E /* p20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE93008D1270018A94E /* p20.jpg */; };
+		BA987CB43008D1270018A94E /* p09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDF3008D1270018A94E /* p09.jpg */; };
+		BA987CB53008D1270018A94E /* p36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF83008D1270018A94E /* p36.jpg */; };
+		BA987CB63008D1270018A94E /* p44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C003008D1270018A94E /* p44.jpg */; };
+		BA987CB73008D1270018A94E /* p105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C173008D1270018A94E /* p105.jpg */; };
+		BA987CB83008D1270018A94E /* التجويد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3B3008D1270018A94E /* التجويد.html */; };
+		BA987CB93008D1270018A94E /* p35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF73008D1270018A94E /* p35.jpg */; };
+		BA987CBA3008D1270018A94E /* p67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0F3008D1270018A94E /* p67.jpg */; };
+		BA987CBB3008D1270018A94E /* همزة القطع وهمزة الوصل.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C623008D1270018A94E /* همزة القطع وهمزة الوصل.html */; };
+		BA987CBC3008D1270018A94E /* الحروف والأصوات.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3F3008D1270018A94E /* الحروف والأصوات.html */; };
+		BA987CBD3008D1270018A94E /* p12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE13008D1270018A94E /* p12.jpg */; };
+		BA987CBE3008D1270018A94E /* v30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C373008D1270018A94E /* v30.mp3 */; };
+		BA987CBF3008D1270018A94E /* القطع.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C443008D1270018A94E /* القطع.html */; };
+		BA987CC03008D1270018A94E /* p24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BED3008D1270018A94E /* p24.jpg */; };
+		BA987CC13008D1270018A94E /* v2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1B3008D1270018A94E /* v2.mp3 */; };
+		BA987CC23008D1270018A94E /* v3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1C3008D1270018A94E /* v3.mp3 */; };
+		BA987CC33008D1270018A94E /* v15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C283008D1270018A94E /* v15.mp3 */; };
+		BA987CC43008D1270018A94E /* القراء العشرة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C423008D1270018A94E /* القراء العشرة.html */; };
+		BA987CC53008D1270018A94E /* الاستعاذة والبسملة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3A3008D1270018A94E /* الاستعاذة والبسملة.html */; };
+		BA987CC63008D1270018A94E /* v24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C313008D1270018A94E /* v24.mp3 */; };
+		BA987CC73008D1270018A94E /* p100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C123008D1270018A94E /* p100.jpg */; };
+		BA987CC83008D1270018A94E /* p10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE03008D1270018A94E /* p10.jpg */; };
+		BA987CC93008D1270018A94E /* p103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C153008D1270018A94E /* p103.jpg */; };
+		BA987CCA3008D1270018A94E /* p41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFD3008D1270018A94E /* p41.jpg */; };
+		BA987CCB3008D1270018A94E /* p51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C073008D1270018A94E /* p51.jpg */; };
+		BA987CCC3008D1270018A94E /* p38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFA3008D1270018A94E /* p38.jpg */; };
+		BA987CCD3008D1270018A94E /* v10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C233008D1270018A94E /* v10.mp3 */; };
+		BA987CCE3008D1270018A94E /* التفخيم والترقيق.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3D3008D1270018A94E /* التفخيم والترقيق.html */; };
+		BA987CCF3008D1270018A94E /* fhafs.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD83008D1270018A94E /* fhafs.otf */; };
+		BA987CD03008D1270018A94E /* p05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDB3008D1270018A94E /* p05.jpg */; };
+		BA987CD13008D1270018A94E /* النون الساكنة والتنوين.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4C3008D1270018A94E /* النون الساكنة والتنوين.html */; };
+		BA987CD23008D1270018A94E /* p45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C013008D1270018A94E /* p45.jpg */; };
+		BA987CD33008D1270018A94E /* p29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF23008D1270018A94E /* p29.jpg */; };
+		BA987CD43008D1270018A94E /* p15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE43008D1270018A94E /* p15.jpg */; };
+		BA987CD53008D1270018A94E /* المدود.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C473008D1270018A94E /* المدود.html */; };
+		BA987CD63008D1270018A94E /* p31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF43008D1270018A94E /* p31.jpg */; };
+		BA987CD73008D1270018A94E /* v19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2C3008D1270018A94E /* v19.mp3 */; };
+		BA987CD83008D1270018A94E /* p42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFE3008D1270018A94E /* p42.jpg */; };
+		BA987CD93008D1270018A94E /* v17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2A3008D1270018A94E /* v17.mp3 */; };
+		BA987CDA3008D1270018A94E /* v20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2D3008D1270018A94E /* v20.mp3 */; };
+		BA987CDB3008D1270018A94E /* المقطوع والموصول.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4A3008D1270018A94E /* المقطوع والموصول.html */; };
+		BA987CDC3008D1270018A94E /* v27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C343008D1270018A94E /* v27.mp3 */; };
+		BA987CDD3008D1270018A94E /* p07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDD3008D1270018A94E /* p07.jpg */; };
+		BA987CDE3008D1270018A94E /* p02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD93008D1270018A94E /* p02.jpg */; };
+		BA987CDF3008D1270018A94E /* p26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEF3008D1270018A94E /* p26.jpg */; };
+		BA987CE03008D1270018A94E /* الوقف على نعم وبلى وكلا.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4F3008D1270018A94E /* الوقف على نعم وبلى وكلا.html */; };
+		BA987CE13008D1270018A94E /* p104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C163008D1270018A94E /* p104.jpg */; };
+		BA987CE23008D1270018A94E /* v6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1F3008D1270018A94E /* v6.mp3 */; };
+		BA987CE33008D1270018A94E /* v11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C243008D1270018A94E /* v11.mp3 */; };
+		BA987CE43008D1270018A94E /* p04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDA3008D1270018A94E /* p04.jpg */; };
+		BA987CE53008D1270018A94E /* v16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C293008D1270018A94E /* v16.mp3 */; };
+		BA987CE63008D1270018A94E /* السلسبيل الشافي.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C403008D1270018A94E /* السلسبيل الشافي.html */; };
+		BA987CE73008D1270018A94E /* تدوين المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C543008D1270018A94E /* تدوين المصحف.html */; };
+		BA987CE83008D1270018A94E /* رائية الخاقاني.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C553008D1270018A94E /* رائية الخاقاني.html */; };
+		BA987CE93008D1270018A94E /* p40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFC3008D1270018A94E /* p40.jpg */; };
+		BA987CEA3008D1270018A94E /* v21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2E3008D1270018A94E /* v21.mp3 */; };
+		BA987CEB3008D1270018A94E /* هاء الكناية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C613008D1270018A94E /* هاء الكناية.html */; };
+		BA987CEC3008D1270018A94E /* ياءات الإضافة والزوائد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C633008D1270018A94E /* ياءات الإضافة والزوائد.html */; };
+		BA987CED3008D1270018A94E /* v9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C223008D1270018A94E /* v9.mp3 */; };
+		BA987CEE3008D1270018A94E /* اللام الساكنة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C453008D1270018A94E /* اللام الساكنة.html */; };
+		BA987CEF3008D1270018A94E /* v12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C253008D1270018A94E /* v12.mp3 */; };
+		BA987CF03008D1270018A94E /* لآلئ البيان.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5D3008D1270018A94E /* لآلئ البيان.html */; };
+		BA987CF13008D1270018A94E /* fhacen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD73008D1270018A94E /* fhacen.ttf */; };
+		BA987CF23008D1270018A94E /* التحفة السمنودية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3C3008D1270018A94E /* التحفة السمنودية.html */; };
+		BA987CF33008D1270018A94E /* p46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C023008D1270018A94E /* p46.jpg */; };
+		BA987CF43008D1270018A94E /* علاقة الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5A3008D1270018A94E /* علاقة الحروف.html */; };
+		BA987CF53008D1270018A94E /* p21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEA3008D1270018A94E /* p21.jpg */; };
+		BA987CF63008D1270018A94E /* p22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEB3008D1270018A94E /* p22.jpg */; };
+		BA987CF73008D1270018A94E /* p28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF13008D1270018A94E /* p28.jpg */; };
+		BA987CF83008D1270018A94E /* p37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF93008D1270018A94E /* p37.jpg */; };
+		BA987CF93008D1270018A94E /* v26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C333008D1270018A94E /* v26.mp3 */; };
+		BA987CFA3008D1270018A94E /* p17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE63008D1270018A94E /* p17.jpg */; };
+		BA987CFB3008D1270018A94E /* v31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C383008D1270018A94E /* v31.mp3 */; };
+		BA987CFC3008D1270018A94E /* v4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1D3008D1270018A94E /* v4.mp3 */; };
+		BA987CFD3008D1270018A94E /* p18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE73008D1270018A94E /* p18.jpg */; };
+		BA987CFE3008D1270018A94E /* p47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C033008D1270018A94E /* p47.jpg */; };
+		BA987CFF3008D1270018A94E /* القرءان الكريم.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C413008D1270018A94E /* القرءان الكريم.html */; };
+		BA987D003008D1270018A94E /* التقاء الساكنين.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3E3008D1270018A94E /* التقاء الساكنين.html */; };
+		BA987D013008D1270018A94E /* تحفة الأطفال.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C533008D1270018A94E /* تحفة الأطفال.html */; };
+		BA987D023008D1270018A94E /* p106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C183008D1270018A94E /* p106.jpg */; };
+		BA987D033008D1270018A94E /* ضبط المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C593008D1270018A94E /* ضبط المصحف.html */; };
+		BA987D043008D1270018A94E /* v23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C303008D1270018A94E /* v23.mp3 */; };
+		BA987D053008D1270018A94E /* v28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C353008D1270018A94E /* v28.mp3 */; };
+		BA987D063008D1270018A94E /* p06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDC3008D1270018A94E /* p06.jpg */; };
+		BA987D073008D1270018A94E /* p48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C043008D1270018A94E /* p48.jpg */; };
+		BA987D083008D1270018A94E /* المقدمة الجزرية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C493008D1270018A94E /* المقدمة الجزرية.html */; };
+		BA987D093008D1270018A94E /* p33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF63008D1270018A94E /* p33.jpg */; };
+		BA987D0A3008D1270018A94E /* p30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF33008D1270018A94E /* p30.jpg */; };
+		BA987D0B3008D1270018A94E /* عن التطبيق.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5B3008D1270018A94E /* عن التطبيق.html */; };
+		BA987D0C3008D1270018A94E /* بيان المكي والمدني.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C513008D1270018A94E /* بيان المكي والمدني.html */; };
+		BA987D0D3008D1270018A94E /* اللحن وأقسامه.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C463008D1270018A94E /* اللحن وأقسامه.html */; };
+		BA987D0E3008D1270018A94E /* p14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE33008D1270018A94E /* p14.jpg */; };
+		BA987D0F3008D1270018A94E /* v22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2F3008D1270018A94E /* v22.mp3 */; };
+		BA987D103008D1270018A94E /* v5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1E3008D1270018A94E /* v5.mp3 */; };
+		BA987D113008D1270018A94E /* v29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C363008D1270018A94E /* v29.mp3 */; };
+		BA987D123008D1270018A94E /* p19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE83008D1270018A94E /* p19.jpg */; };
+		BA987D133008D1270018A94E /* v14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C273008D1270018A94E /* v14.mp3 */; };
+		BA987D143008D1270018A94E /* p13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE23008D1270018A94E /* p13.jpg */; };
+		BA987D153008D1270018A94E /* نونية السخاوي.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C603008D1270018A94E /* نونية السخاوي.html */; };
+		BA987D163008D1270018A94E /* p50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C063008D1270018A94E /* p50.jpg */; };
+		BA987D173008D1270018A94E /* p58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0C3008D1270018A94E /* p58.jpg */; };
+		BA987D183008D1270018A94E /* p55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0B3008D1270018A94E /* p55.jpg */; };
+		BA987D193008D1270018A94E /* p39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFB3008D1270018A94E /* p39.jpg */; };
+		BA987D1A3008D1270018A94E /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = BA987C193008D1270018A94E /* stylesheet.css */; };
+		BA987D1B3008D1270018A94E /* p43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFF3008D1270018A94E /* p43.jpg */; };
+		BA987D1C3008D1270018A94E /* قصر المنفصل.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5C3008D1270018A94E /* قصر المنفصل.html */; };
+		BA987D1D3008D1270018A94E /* p98.png in Resources */ = {isa = PBXBuildFile; fileRef = BA987C103008D1270018A94E /* p98.png */; };
+		BA987D1E3008D1270018A94E /* p49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C053008D1270018A94E /* p49.jpg */; };
+		BA987D1F3008D1270018A94E /* الوقف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4D3008D1270018A94E /* الوقف.html */; };
+		BA987D203008D1270018A94E /* p60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0E3008D1270018A94E /* p60.jpg */; };
+		BA987D213008D1270018A94E /* ما يراعى لحفص.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5E3008D1270018A94E /* ما يراعى لحفص.html */; };
+		BA987D223008D1270018A94E /* p99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C113008D1270018A94E /* p99.jpg */; };
+		BA987D233008D1270018A94E /* p53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C093008D1270018A94E /* p53.jpg */; };
+		BA987D243008D1270018A94E /* p32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF53008D1270018A94E /* p32.jpg */; };
+		BA987D253008D1270018A94E /* p101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C133008D1270018A94E /* p101.jpg */; };
+		BA987D263008D1270018A94E /* الوقف على أواخر الكلم.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4E3008D1270018A94E /* الوقف على أواخر الكلم.html */; };
+		BA987D273008D1270018A94E /* بهجة اللُّحَاظِ.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C503008D1270018A94E /* بهجة اللُّحَاظِ.html */; };
+		BA987D283008D1270018A94E /* رسم المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C563008D1270018A94E /* رسم المصحف.html */; };
+		BA987D293008D1270018A94E /* p59.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0D3008D1270018A94E /* p59.jpg */; };
+		BA987D2A3008D1270018A94E /* p27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF03008D1270018A94E /* p27.jpg */; };
+		BA987D2B3008D1270018A94E /* p25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEE3008D1270018A94E /* p25.jpg */; };
+		BA987D2C3008D1270018A94E /* مخارج وألقاب الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5F3008D1270018A94E /* مخارج وألقاب الحروف.html */; };
+		BA987D2D3008D1270018A94E /* الميم الساكنة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4B3008D1270018A94E /* الميم الساكنة.html */; };
+		BA987D2E3008D1270018A94E /* صفات الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C583008D1270018A94E /* صفات الحروف.html */; };
+		BA987D2F3008D1270018A94E /* v18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2B3008D1270018A94E /* v18.mp3 */; };
+		BA987D303008D1270018A94E /* p23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEC3008D1270018A94E /* p23.jpg */; };
+		BA987D313008D1270018A94E /* المفيد في التجويد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C483008D1270018A94E /* المفيد في التجويد.html */; };
+		BA987D323008D1270018A94E /* v1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1A3008D1270018A94E /* v1.mp3 */; };
+		BA987D333008D1270018A94E /* p52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C083008D1270018A94E /* p52.jpg */; };
+		BA987D343008D1270018A94E /* p16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE53008D1270018A94E /* p16.jpg */; };
+		BA987D353008D1270018A94E /* v8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C213008D1270018A94E /* v8.mp3 */; };
+		BA987D363008D1270018A94E /* p08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDE3008D1270018A94E /* p08.jpg */; };
+		BA987D373008D1270018A94E /* p54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0A3008D1270018A94E /* p54.jpg */; };
+		BA987D383008D1270018A94E /* الابتداء.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C393008D1270018A94E /* الابتداء.html */; };
+		BA987D393008D1270018A94E /* v7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C203008D1270018A94E /* v7.mp3 */; };
+		BA987D3A3008D1270018A94E /* القراءات.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C433008D1270018A94E /* القراءات.html */; };
+		BA987D3B3008D1270018A94E /* تاء وهاء التأنيث.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C523008D1270018A94E /* تاء وهاء التأنيث.html */; };
+		BA987D3C3008D1270018A94E /* p102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C143008D1270018A94E /* p102.jpg */; };
+		BA987D3D3008D1270018A94E /* v13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C263008D1270018A94E /* v13.mp3 */; };
+		BA987D3E3008D1270018A94E /* v25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C323008D1270018A94E /* v25.mp3 */; };
+		BA987D3F3008D1270018A94E /* سلسلة السند.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C573008D1270018A94E /* سلسلة السند.html */; };
+		BA987D403008D1270018A94E /* p20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE93008D1270018A94E /* p20.jpg */; };
+		BA987D413008D1270018A94E /* p09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDF3008D1270018A94E /* p09.jpg */; };
+		BA987D423008D1270018A94E /* p36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF83008D1270018A94E /* p36.jpg */; };
+		BA987D433008D1270018A94E /* p44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C003008D1270018A94E /* p44.jpg */; };
+		BA987D443008D1270018A94E /* p105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C173008D1270018A94E /* p105.jpg */; };
+		BA987D453008D1270018A94E /* التجويد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3B3008D1270018A94E /* التجويد.html */; };
+		BA987D463008D1270018A94E /* p35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF73008D1270018A94E /* p35.jpg */; };
+		BA987D473008D1270018A94E /* p67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0F3008D1270018A94E /* p67.jpg */; };
+		BA987D483008D1270018A94E /* همزة القطع وهمزة الوصل.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C623008D1270018A94E /* همزة القطع وهمزة الوصل.html */; };
+		BA987D493008D1270018A94E /* الحروف والأصوات.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3F3008D1270018A94E /* الحروف والأصوات.html */; };
+		BA987D4A3008D1270018A94E /* p12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE13008D1270018A94E /* p12.jpg */; };
+		BA987D4B3008D1270018A94E /* v30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C373008D1270018A94E /* v30.mp3 */; };
+		BA987D4C3008D1270018A94E /* القطع.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C443008D1270018A94E /* القطع.html */; };
+		BA987D4D3008D1270018A94E /* p24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BED3008D1270018A94E /* p24.jpg */; };
+		BA987D4E3008D1270018A94E /* v2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1B3008D1270018A94E /* v2.mp3 */; };
+		BA987D4F3008D1270018A94E /* v3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1C3008D1270018A94E /* v3.mp3 */; };
+		BA987D503008D1270018A94E /* v15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C283008D1270018A94E /* v15.mp3 */; };
+		BA987D513008D1270018A94E /* القراء العشرة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C423008D1270018A94E /* القراء العشرة.html */; };
+		BA987D523008D1270018A94E /* الاستعاذة والبسملة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3A3008D1270018A94E /* الاستعاذة والبسملة.html */; };
+		BA987D533008D1270018A94E /* v24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C313008D1270018A94E /* v24.mp3 */; };
+		BA987D543008D1270018A94E /* p100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C123008D1270018A94E /* p100.jpg */; };
+		BA987D553008D1270018A94E /* p10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE03008D1270018A94E /* p10.jpg */; };
+		BA987D563008D1270018A94E /* p103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C153008D1270018A94E /* p103.jpg */; };
+		BA987D573008D1270018A94E /* p41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFD3008D1270018A94E /* p41.jpg */; };
+		BA987D583008D1270018A94E /* p51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C073008D1270018A94E /* p51.jpg */; };
+		BA987D593008D1270018A94E /* p38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFA3008D1270018A94E /* p38.jpg */; };
+		BA987D5A3008D1270018A94E /* v10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C233008D1270018A94E /* v10.mp3 */; };
+		BA987D5B3008D1270018A94E /* التفخيم والترقيق.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3D3008D1270018A94E /* التفخيم والترقيق.html */; };
+		BA987D5C3008D1270018A94E /* fhafs.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD83008D1270018A94E /* fhafs.otf */; };
+		BA987D5D3008D1270018A94E /* p05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDB3008D1270018A94E /* p05.jpg */; };
+		BA987D5E3008D1270018A94E /* النون الساكنة والتنوين.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4C3008D1270018A94E /* النون الساكنة والتنوين.html */; };
+		BA987D5F3008D1270018A94E /* p45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C013008D1270018A94E /* p45.jpg */; };
+		BA987D603008D1270018A94E /* p29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF23008D1270018A94E /* p29.jpg */; };
+		BA987D613008D1270018A94E /* p15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE43008D1270018A94E /* p15.jpg */; };
+		BA987D623008D1270018A94E /* المدود.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C473008D1270018A94E /* المدود.html */; };
+		BA987D633008D1270018A94E /* p31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF43008D1270018A94E /* p31.jpg */; };
+		BA987D643008D1270018A94E /* v19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2C3008D1270018A94E /* v19.mp3 */; };
+		BA987D653008D1270018A94E /* p42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFE3008D1270018A94E /* p42.jpg */; };
+		BA987D663008D1270018A94E /* v17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2A3008D1270018A94E /* v17.mp3 */; };
+		BA987D673008D1270018A94E /* v20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2D3008D1270018A94E /* v20.mp3 */; };
+		BA987D683008D1270018A94E /* المقطوع والموصول.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4A3008D1270018A94E /* المقطوع والموصول.html */; };
+		BA987D693008D1270018A94E /* v27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C343008D1270018A94E /* v27.mp3 */; };
+		BA987D6A3008D1270018A94E /* p07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDD3008D1270018A94E /* p07.jpg */; };
+		BA987D6B3008D1270018A94E /* p02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD93008D1270018A94E /* p02.jpg */; };
+		BA987D6C3008D1270018A94E /* p26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEF3008D1270018A94E /* p26.jpg */; };
+		BA987D6D3008D1270018A94E /* الوقف على نعم وبلى وكلا.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4F3008D1270018A94E /* الوقف على نعم وبلى وكلا.html */; };
+		BA987D6E3008D1270018A94E /* p104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C163008D1270018A94E /* p104.jpg */; };
+		BA987D6F3008D1270018A94E /* v6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1F3008D1270018A94E /* v6.mp3 */; };
+		BA987D703008D1270018A94E /* v11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C243008D1270018A94E /* v11.mp3 */; };
+		BA987D713008D1270018A94E /* p04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDA3008D1270018A94E /* p04.jpg */; };
+		BA987D723008D1270018A94E /* v16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C293008D1270018A94E /* v16.mp3 */; };
+		BA987D733008D1270018A94E /* السلسبيل الشافي.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C403008D1270018A94E /* السلسبيل الشافي.html */; };
+		BA987D743008D1270018A94E /* تدوين المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C543008D1270018A94E /* تدوين المصحف.html */; };
+		BA987D753008D1270018A94E /* رائية الخاقاني.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C553008D1270018A94E /* رائية الخاقاني.html */; };
+		BA987D763008D1270018A94E /* p40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFC3008D1270018A94E /* p40.jpg */; };
+		BA987D773008D1270018A94E /* v21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2E3008D1270018A94E /* v21.mp3 */; };
+		BA987D783008D1270018A94E /* هاء الكناية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C613008D1270018A94E /* هاء الكناية.html */; };
+		BA987D793008D1270018A94E /* ياءات الإضافة والزوائد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C633008D1270018A94E /* ياءات الإضافة والزوائد.html */; };
+		BA987D7A3008D1270018A94E /* v9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C223008D1270018A94E /* v9.mp3 */; };
+		BA987D7B3008D1270018A94E /* اللام الساكنة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C453008D1270018A94E /* اللام الساكنة.html */; };
+		BA987D7C3008D1270018A94E /* v12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C253008D1270018A94E /* v12.mp3 */; };
+		BA987D7D3008D1270018A94E /* لآلئ البيان.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5D3008D1270018A94E /* لآلئ البيان.html */; };
+		BA987D7E3008D1270018A94E /* fhacen.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD73008D1270018A94E /* fhacen.ttf */; };
+		BA987D7F3008D1270018A94E /* التحفة السمنودية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3C3008D1270018A94E /* التحفة السمنودية.html */; };
+		BA987D803008D1270018A94E /* p46.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C023008D1270018A94E /* p46.jpg */; };
+		BA987D813008D1270018A94E /* علاقة الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5A3008D1270018A94E /* علاقة الحروف.html */; };
+		BA987D823008D1270018A94E /* p21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEA3008D1270018A94E /* p21.jpg */; };
+		BA987D833008D1270018A94E /* p22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEB3008D1270018A94E /* p22.jpg */; };
+		BA987D843008D1270018A94E /* p28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF13008D1270018A94E /* p28.jpg */; };
+		BA987D853008D1270018A94E /* p37.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF93008D1270018A94E /* p37.jpg */; };
+		BA987D863008D1270018A94E /* v26.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C333008D1270018A94E /* v26.mp3 */; };
+		BA987D873008D1270018A94E /* p17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE63008D1270018A94E /* p17.jpg */; };
+		BA987D883008D1270018A94E /* v31.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C383008D1270018A94E /* v31.mp3 */; };
+		BA987D893008D1270018A94E /* v4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1D3008D1270018A94E /* v4.mp3 */; };
+		BA987D8A3008D1270018A94E /* p18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE73008D1270018A94E /* p18.jpg */; };
+		BA987D8B3008D1270018A94E /* p47.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C033008D1270018A94E /* p47.jpg */; };
+		BA987D8C3008D1270018A94E /* القرءان الكريم.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C413008D1270018A94E /* القرءان الكريم.html */; };
+		BA987D8D3008D1270018A94E /* التقاء الساكنين.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3E3008D1270018A94E /* التقاء الساكنين.html */; };
+		BA987D8E3008D1270018A94E /* تحفة الأطفال.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C533008D1270018A94E /* تحفة الأطفال.html */; };
+		BA987D8F3008D1270018A94E /* p106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C183008D1270018A94E /* p106.jpg */; };
+		BA987D903008D1270018A94E /* ضبط المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C593008D1270018A94E /* ضبط المصحف.html */; };
+		BA987D913008D1270018A94E /* v23.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C303008D1270018A94E /* v23.mp3 */; };
+		BA987D923008D1270018A94E /* v28.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C353008D1270018A94E /* v28.mp3 */; };
+		BA987D933008D1270018A94E /* p06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDC3008D1270018A94E /* p06.jpg */; };
+		BA987D943008D1270018A94E /* p48.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C043008D1270018A94E /* p48.jpg */; };
+		BA987D953008D1270018A94E /* المقدمة الجزرية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C493008D1270018A94E /* المقدمة الجزرية.html */; };
+		BA987D963008D1270018A94E /* p33.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF63008D1270018A94E /* p33.jpg */; };
+		BA987D973008D1270018A94E /* p30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF33008D1270018A94E /* p30.jpg */; };
+		BA987D983008D1270018A94E /* عن التطبيق.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5B3008D1270018A94E /* عن التطبيق.html */; };
+		BA987D993008D1270018A94E /* بيان المكي والمدني.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C513008D1270018A94E /* بيان المكي والمدني.html */; };
+		BA987D9A3008D1270018A94E /* اللحن وأقسامه.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C463008D1270018A94E /* اللحن وأقسامه.html */; };
+		BA987D9B3008D1270018A94E /* p14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE33008D1270018A94E /* p14.jpg */; };
+		BA987D9C3008D1270018A94E /* v22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2F3008D1270018A94E /* v22.mp3 */; };
+		BA987D9D3008D1270018A94E /* v5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1E3008D1270018A94E /* v5.mp3 */; };
+		BA987D9E3008D1270018A94E /* v29.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C363008D1270018A94E /* v29.mp3 */; };
+		BA987D9F3008D1270018A94E /* p19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE83008D1270018A94E /* p19.jpg */; };
+		BA987DA03008D1270018A94E /* v14.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C273008D1270018A94E /* v14.mp3 */; };
+		BA987DA13008D1270018A94E /* p13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE23008D1270018A94E /* p13.jpg */; };
+		BA987DA23008D1270018A94E /* نونية السخاوي.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C603008D1270018A94E /* نونية السخاوي.html */; };
+		BA987DA33008D1270018A94E /* p50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C063008D1270018A94E /* p50.jpg */; };
+		BA987DA43008D1270018A94E /* p58.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0C3008D1270018A94E /* p58.jpg */; };
+		BA987DA53008D1270018A94E /* p55.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0B3008D1270018A94E /* p55.jpg */; };
+		BA987DA63008D1270018A94E /* p39.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFB3008D1270018A94E /* p39.jpg */; };
+		BA987DA73008D1270018A94E /* stylesheet.css in Resources */ = {isa = PBXBuildFile; fileRef = BA987C193008D1270018A94E /* stylesheet.css */; };
+		BA987DA83008D1270018A94E /* p43.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFF3008D1270018A94E /* p43.jpg */; };
+		BA987DA93008D1270018A94E /* قصر المنفصل.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5C3008D1270018A94E /* قصر المنفصل.html */; };
+		BA987DAA3008D1270018A94E /* p98.png in Resources */ = {isa = PBXBuildFile; fileRef = BA987C103008D1270018A94E /* p98.png */; };
+		BA987DAB3008D1270018A94E /* p49.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C053008D1270018A94E /* p49.jpg */; };
+		BA987DAC3008D1270018A94E /* الوقف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4D3008D1270018A94E /* الوقف.html */; };
+		BA987DAD3008D1270018A94E /* p60.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0E3008D1270018A94E /* p60.jpg */; };
+		BA987DAE3008D1270018A94E /* ما يراعى لحفص.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5E3008D1270018A94E /* ما يراعى لحفص.html */; };
+		BA987DAF3008D1270018A94E /* p99.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C113008D1270018A94E /* p99.jpg */; };
+		BA987DB03008D1270018A94E /* p53.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C093008D1270018A94E /* p53.jpg */; };
+		BA987DB13008D1270018A94E /* p32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF53008D1270018A94E /* p32.jpg */; };
+		BA987DB23008D1270018A94E /* p101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C133008D1270018A94E /* p101.jpg */; };
+		BA987DB33008D1270018A94E /* الوقف على أواخر الكلم.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4E3008D1270018A94E /* الوقف على أواخر الكلم.html */; };
+		BA987DB43008D1270018A94E /* بهجة اللُّحَاظِ.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C503008D1270018A94E /* بهجة اللُّحَاظِ.html */; };
+		BA987DB53008D1270018A94E /* رسم المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C563008D1270018A94E /* رسم المصحف.html */; };
+		BA987DB63008D1270018A94E /* p59.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0D3008D1270018A94E /* p59.jpg */; };
+		BA987DB73008D1270018A94E /* p27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF03008D1270018A94E /* p27.jpg */; };
+		BA987DB83008D1270018A94E /* p25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEE3008D1270018A94E /* p25.jpg */; };
+		BA987DB93008D1270018A94E /* مخارج وألقاب الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5F3008D1270018A94E /* مخارج وألقاب الحروف.html */; };
+		BA987DBA3008D1270018A94E /* الميم الساكنة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4B3008D1270018A94E /* الميم الساكنة.html */; };
+		BA987DBB3008D1270018A94E /* صفات الحروف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C583008D1270018A94E /* صفات الحروف.html */; };
+		BA987DBC3008D1270018A94E /* v18.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2B3008D1270018A94E /* v18.mp3 */; };
+		BA987DBD3008D1270018A94E /* p23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEC3008D1270018A94E /* p23.jpg */; };
+		BA987DBE3008D1270018A94E /* المفيد في التجويد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C483008D1270018A94E /* المفيد في التجويد.html */; };
+		BA987DBF3008D1270018A94E /* v1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1A3008D1270018A94E /* v1.mp3 */; };
+		BA987DC03008D1270018A94E /* p52.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C083008D1270018A94E /* p52.jpg */; };
+		BA987DC13008D1270018A94E /* p16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE53008D1270018A94E /* p16.jpg */; };
+		BA987DC23008D1270018A94E /* v8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C213008D1270018A94E /* v8.mp3 */; };
+		BA987DC33008D1270018A94E /* p08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDE3008D1270018A94E /* p08.jpg */; };
+		BA987DC43008D1270018A94E /* p54.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0A3008D1270018A94E /* p54.jpg */; };
+		BA987DC53008D1270018A94E /* الابتداء.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C393008D1270018A94E /* الابتداء.html */; };
+		BA987DC63008D1270018A94E /* v7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C203008D1270018A94E /* v7.mp3 */; };
+		BA987DC73008D1270018A94E /* القراءات.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C433008D1270018A94E /* القراءات.html */; };
+		BA987DC83008D1270018A94E /* تاء وهاء التأنيث.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C523008D1270018A94E /* تاء وهاء التأنيث.html */; };
+		BA987DC93008D1270018A94E /* p102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C143008D1270018A94E /* p102.jpg */; };
+		BA987DCA3008D1270018A94E /* v13.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C263008D1270018A94E /* v13.mp3 */; };
+		BA987DCB3008D1270018A94E /* v25.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C323008D1270018A94E /* v25.mp3 */; };
+		BA987DCC3008D1270018A94E /* سلسلة السند.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C573008D1270018A94E /* سلسلة السند.html */; };
+		BA987DCD3008D1270018A94E /* p20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE93008D1270018A94E /* p20.jpg */; };
+		BA987DCE3008D1270018A94E /* p09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDF3008D1270018A94E /* p09.jpg */; };
+		BA987DCF3008D1270018A94E /* p36.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF83008D1270018A94E /* p36.jpg */; };
+		BA987DD03008D1270018A94E /* p44.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C003008D1270018A94E /* p44.jpg */; };
+		BA987DD13008D1270018A94E /* p105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C173008D1270018A94E /* p105.jpg */; };
+		BA987DD23008D1270018A94E /* التجويد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3B3008D1270018A94E /* التجويد.html */; };
+		BA987DD33008D1270018A94E /* p35.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF73008D1270018A94E /* p35.jpg */; };
+		BA987DD43008D1270018A94E /* p67.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C0F3008D1270018A94E /* p67.jpg */; };
+		BA987DD53008D1270018A94E /* همزة القطع وهمزة الوصل.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C623008D1270018A94E /* همزة القطع وهمزة الوصل.html */; };
+		BA987DD63008D1270018A94E /* الحروف والأصوات.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3F3008D1270018A94E /* الحروف والأصوات.html */; };
+		BA987DD73008D1270018A94E /* p12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE13008D1270018A94E /* p12.jpg */; };
+		BA987DD83008D1270018A94E /* v30.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C373008D1270018A94E /* v30.mp3 */; };
+		BA987DD93008D1270018A94E /* القطع.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C443008D1270018A94E /* القطع.html */; };
+		BA987DDA3008D1270018A94E /* p24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BED3008D1270018A94E /* p24.jpg */; };
+		BA987DDB3008D1270018A94E /* v2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1B3008D1270018A94E /* v2.mp3 */; };
+		BA987DDC3008D1270018A94E /* v3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1C3008D1270018A94E /* v3.mp3 */; };
+		BA987DDD3008D1270018A94E /* v15.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C283008D1270018A94E /* v15.mp3 */; };
+		BA987DDE3008D1270018A94E /* القراء العشرة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C423008D1270018A94E /* القراء العشرة.html */; };
+		BA987DDF3008D1270018A94E /* الاستعاذة والبسملة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3A3008D1270018A94E /* الاستعاذة والبسملة.html */; };
+		BA987DE03008D1270018A94E /* v24.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C313008D1270018A94E /* v24.mp3 */; };
+		BA987DE13008D1270018A94E /* p100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C123008D1270018A94E /* p100.jpg */; };
+		BA987DE23008D1270018A94E /* p10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE03008D1270018A94E /* p10.jpg */; };
+		BA987DE33008D1270018A94E /* p103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C153008D1270018A94E /* p103.jpg */; };
+		BA987DE43008D1270018A94E /* p41.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFD3008D1270018A94E /* p41.jpg */; };
+		BA987DE53008D1270018A94E /* p51.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C073008D1270018A94E /* p51.jpg */; };
+		BA987DE63008D1270018A94E /* p38.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFA3008D1270018A94E /* p38.jpg */; };
+		BA987DE73008D1270018A94E /* v10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C233008D1270018A94E /* v10.mp3 */; };
+		BA987DE83008D1270018A94E /* التفخيم والترقيق.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C3D3008D1270018A94E /* التفخيم والترقيق.html */; };
+		BA987DE93008D1270018A94E /* fhafs.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD83008D1270018A94E /* fhafs.otf */; };
+		BA987DEA3008D1270018A94E /* p05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDB3008D1270018A94E /* p05.jpg */; };
+		BA987DEB3008D1270018A94E /* النون الساكنة والتنوين.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4C3008D1270018A94E /* النون الساكنة والتنوين.html */; };
+		BA987DEC3008D1270018A94E /* p45.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C013008D1270018A94E /* p45.jpg */; };
+		BA987DED3008D1270018A94E /* p29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF23008D1270018A94E /* p29.jpg */; };
+		BA987DEE3008D1270018A94E /* p15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BE43008D1270018A94E /* p15.jpg */; };
+		BA987DEF3008D1270018A94E /* المدود.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C473008D1270018A94E /* المدود.html */; };
+		BA987DF03008D1270018A94E /* p31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BF43008D1270018A94E /* p31.jpg */; };
+		BA987DF13008D1270018A94E /* v19.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2C3008D1270018A94E /* v19.mp3 */; };
+		BA987DF23008D1270018A94E /* p42.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFE3008D1270018A94E /* p42.jpg */; };
+		BA987DF33008D1270018A94E /* v17.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2A3008D1270018A94E /* v17.mp3 */; };
+		BA987DF43008D1270018A94E /* v20.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2D3008D1270018A94E /* v20.mp3 */; };
+		BA987DF53008D1270018A94E /* المقطوع والموصول.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4A3008D1270018A94E /* المقطوع والموصول.html */; };
+		BA987DF63008D1270018A94E /* v27.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C343008D1270018A94E /* v27.mp3 */; };
+		BA987DF73008D1270018A94E /* p07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDD3008D1270018A94E /* p07.jpg */; };
+		BA987DF83008D1270018A94E /* p02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BD93008D1270018A94E /* p02.jpg */; };
+		BA987DF93008D1270018A94E /* p26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BEF3008D1270018A94E /* p26.jpg */; };
+		BA987DFA3008D1270018A94E /* الوقف على نعم وبلى وكلا.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C4F3008D1270018A94E /* الوقف على نعم وبلى وكلا.html */; };
+		BA987DFB3008D1270018A94E /* p104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987C163008D1270018A94E /* p104.jpg */; };
+		BA987DFC3008D1270018A94E /* v6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C1F3008D1270018A94E /* v6.mp3 */; };
+		BA987DFD3008D1270018A94E /* v11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C243008D1270018A94E /* v11.mp3 */; };
+		BA987DFE3008D1270018A94E /* p04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BDA3008D1270018A94E /* p04.jpg */; };
+		BA987DFF3008D1270018A94E /* v16.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C293008D1270018A94E /* v16.mp3 */; };
+		BA987E003008D1270018A94E /* السلسبيل الشافي.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C403008D1270018A94E /* السلسبيل الشافي.html */; };
+		BA987E013008D1270018A94E /* تدوين المصحف.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C543008D1270018A94E /* تدوين المصحف.html */; };
+		BA987E023008D1270018A94E /* رائية الخاقاني.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C553008D1270018A94E /* رائية الخاقاني.html */; };
+		BA987E033008D1270018A94E /* p40.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA987BFC3008D1270018A94E /* p40.jpg */; };
+		BA987E043008D1270018A94E /* v21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C2E3008D1270018A94E /* v21.mp3 */; };
+		BA987E053008D1270018A94E /* هاء الكناية.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C613008D1270018A94E /* هاء الكناية.html */; };
+		BA987E063008D1270018A94E /* ياءات الإضافة والزوائد.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C633008D1270018A94E /* ياءات الإضافة والزوائد.html */; };
+		BA987E073008D1270018A94E /* v9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C223008D1270018A94E /* v9.mp3 */; };
+		BA987E083008D1270018A94E /* اللام الساكنة.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C453008D1270018A94E /* اللام الساكنة.html */; };
+		BA987E093008D1270018A94E /* v12.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA987C253008D1270018A94E /* v12.mp3 */; };
+		BA987E0A3008D1270018A94E /* لآلئ البيان.html in Resources */ = {isa = PBXBuildFile; fileRef = BA987C5D3008D1270018A94E /* لآلئ البيان.html */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		BA9876703007DEF30018A94E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +453,147 @@
 		BA9876623007DEF00018A94E /* دليل  حفص.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "دليل  حفص.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA98766F3007DEF30018A94E /* دليل  حفصTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "دليل  حفصTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9876793007DEF30018A94E /* دليل  حفصUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "دليل  حفصUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA987BD73008D1270018A94E /* fhacen.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fhacen.ttf; sourceTree = "<group>"; };
+		BA987BD83008D1270018A94E /* fhafs.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fhafs.otf; sourceTree = "<group>"; };
+		BA987BD93008D1270018A94E /* p02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p02.jpg; sourceTree = "<group>"; };
+		BA987BDA3008D1270018A94E /* p04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p04.jpg; sourceTree = "<group>"; };
+		BA987BDB3008D1270018A94E /* p05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p05.jpg; sourceTree = "<group>"; };
+		BA987BDC3008D1270018A94E /* p06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p06.jpg; sourceTree = "<group>"; };
+		BA987BDD3008D1270018A94E /* p07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p07.jpg; sourceTree = "<group>"; };
+		BA987BDE3008D1270018A94E /* p08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p08.jpg; sourceTree = "<group>"; };
+		BA987BDF3008D1270018A94E /* p09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p09.jpg; sourceTree = "<group>"; };
+		BA987BE03008D1270018A94E /* p10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p10.jpg; sourceTree = "<group>"; };
+		BA987BE13008D1270018A94E /* p12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p12.jpg; sourceTree = "<group>"; };
+		BA987BE23008D1270018A94E /* p13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p13.jpg; sourceTree = "<group>"; };
+		BA987BE33008D1270018A94E /* p14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p14.jpg; sourceTree = "<group>"; };
+		BA987BE43008D1270018A94E /* p15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p15.jpg; sourceTree = "<group>"; };
+		BA987BE53008D1270018A94E /* p16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p16.jpg; sourceTree = "<group>"; };
+		BA987BE63008D1270018A94E /* p17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p17.jpg; sourceTree = "<group>"; };
+		BA987BE73008D1270018A94E /* p18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p18.jpg; sourceTree = "<group>"; };
+		BA987BE83008D1270018A94E /* p19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p19.jpg; sourceTree = "<group>"; };
+		BA987BE93008D1270018A94E /* p20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p20.jpg; sourceTree = "<group>"; };
+		BA987BEA3008D1270018A94E /* p21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p21.jpg; sourceTree = "<group>"; };
+		BA987BEB3008D1270018A94E /* p22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p22.jpg; sourceTree = "<group>"; };
+		BA987BEC3008D1270018A94E /* p23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p23.jpg; sourceTree = "<group>"; };
+		BA987BED3008D1270018A94E /* p24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p24.jpg; sourceTree = "<group>"; };
+		BA987BEE3008D1270018A94E /* p25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p25.jpg; sourceTree = "<group>"; };
+		BA987BEF3008D1270018A94E /* p26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p26.jpg; sourceTree = "<group>"; };
+		BA987BF03008D1270018A94E /* p27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p27.jpg; sourceTree = "<group>"; };
+		BA987BF13008D1270018A94E /* p28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p28.jpg; sourceTree = "<group>"; };
+		BA987BF23008D1270018A94E /* p29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p29.jpg; sourceTree = "<group>"; };
+		BA987BF33008D1270018A94E /* p30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p30.jpg; sourceTree = "<group>"; };
+		BA987BF43008D1270018A94E /* p31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p31.jpg; sourceTree = "<group>"; };
+		BA987BF53008D1270018A94E /* p32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p32.jpg; sourceTree = "<group>"; };
+		BA987BF63008D1270018A94E /* p33.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p33.jpg; sourceTree = "<group>"; };
+		BA987BF73008D1270018A94E /* p35.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p35.jpg; sourceTree = "<group>"; };
+		BA987BF83008D1270018A94E /* p36.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p36.jpg; sourceTree = "<group>"; };
+		BA987BF93008D1270018A94E /* p37.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p37.jpg; sourceTree = "<group>"; };
+		BA987BFA3008D1270018A94E /* p38.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p38.jpg; sourceTree = "<group>"; };
+		BA987BFB3008D1270018A94E /* p39.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p39.jpg; sourceTree = "<group>"; };
+		BA987BFC3008D1270018A94E /* p40.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p40.jpg; sourceTree = "<group>"; };
+		BA987BFD3008D1270018A94E /* p41.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p41.jpg; sourceTree = "<group>"; };
+		BA987BFE3008D1270018A94E /* p42.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p42.jpg; sourceTree = "<group>"; };
+		BA987BFF3008D1270018A94E /* p43.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p43.jpg; sourceTree = "<group>"; };
+		BA987C003008D1270018A94E /* p44.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p44.jpg; sourceTree = "<group>"; };
+		BA987C013008D1270018A94E /* p45.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p45.jpg; sourceTree = "<group>"; };
+		BA987C023008D1270018A94E /* p46.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p46.jpg; sourceTree = "<group>"; };
+		BA987C033008D1270018A94E /* p47.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p47.jpg; sourceTree = "<group>"; };
+		BA987C043008D1270018A94E /* p48.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p48.jpg; sourceTree = "<group>"; };
+		BA987C053008D1270018A94E /* p49.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p49.jpg; sourceTree = "<group>"; };
+		BA987C063008D1270018A94E /* p50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p50.jpg; sourceTree = "<group>"; };
+		BA987C073008D1270018A94E /* p51.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p51.jpg; sourceTree = "<group>"; };
+		BA987C083008D1270018A94E /* p52.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p52.jpg; sourceTree = "<group>"; };
+		BA987C093008D1270018A94E /* p53.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p53.jpg; sourceTree = "<group>"; };
+		BA987C0A3008D1270018A94E /* p54.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p54.jpg; sourceTree = "<group>"; };
+		BA987C0B3008D1270018A94E /* p55.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p55.jpg; sourceTree = "<group>"; };
+		BA987C0C3008D1270018A94E /* p58.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p58.jpg; sourceTree = "<group>"; };
+		BA987C0D3008D1270018A94E /* p59.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p59.jpg; sourceTree = "<group>"; };
+		BA987C0E3008D1270018A94E /* p60.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p60.jpg; sourceTree = "<group>"; };
+		BA987C0F3008D1270018A94E /* p67.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p67.jpg; sourceTree = "<group>"; };
+		BA987C103008D1270018A94E /* p98.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p98.png; sourceTree = "<group>"; };
+		BA987C113008D1270018A94E /* p99.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p99.jpg; sourceTree = "<group>"; };
+		BA987C123008D1270018A94E /* p100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p100.jpg; sourceTree = "<group>"; };
+		BA987C133008D1270018A94E /* p101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p101.jpg; sourceTree = "<group>"; };
+		BA987C143008D1270018A94E /* p102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p102.jpg; sourceTree = "<group>"; };
+		BA987C153008D1270018A94E /* p103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p103.jpg; sourceTree = "<group>"; };
+		BA987C163008D1270018A94E /* p104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p104.jpg; sourceTree = "<group>"; };
+		BA987C173008D1270018A94E /* p105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p105.jpg; sourceTree = "<group>"; };
+		BA987C183008D1270018A94E /* p106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = p106.jpg; sourceTree = "<group>"; };
+		BA987C193008D1270018A94E /* stylesheet.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = stylesheet.css; sourceTree = "<group>"; };
+		BA987C1A3008D1270018A94E /* v1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v1.mp3; sourceTree = "<group>"; };
+		BA987C1B3008D1270018A94E /* v2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v2.mp3; sourceTree = "<group>"; };
+		BA987C1C3008D1270018A94E /* v3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v3.mp3; sourceTree = "<group>"; };
+		BA987C1D3008D1270018A94E /* v4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v4.mp3; sourceTree = "<group>"; };
+		BA987C1E3008D1270018A94E /* v5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v5.mp3; sourceTree = "<group>"; };
+		BA987C1F3008D1270018A94E /* v6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v6.mp3; sourceTree = "<group>"; };
+		BA987C203008D1270018A94E /* v7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v7.mp3; sourceTree = "<group>"; };
+		BA987C213008D1270018A94E /* v8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v8.mp3; sourceTree = "<group>"; };
+		BA987C223008D1270018A94E /* v9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v9.mp3; sourceTree = "<group>"; };
+		BA987C233008D1270018A94E /* v10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v10.mp3; sourceTree = "<group>"; };
+		BA987C243008D1270018A94E /* v11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v11.mp3; sourceTree = "<group>"; };
+		BA987C253008D1270018A94E /* v12.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v12.mp3; sourceTree = "<group>"; };
+		BA987C263008D1270018A94E /* v13.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v13.mp3; sourceTree = "<group>"; };
+		BA987C273008D1270018A94E /* v14.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v14.mp3; sourceTree = "<group>"; };
+		BA987C283008D1270018A94E /* v15.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v15.mp3; sourceTree = "<group>"; };
+		BA987C293008D1270018A94E /* v16.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v16.mp3; sourceTree = "<group>"; };
+		BA987C2A3008D1270018A94E /* v17.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v17.mp3; sourceTree = "<group>"; };
+		BA987C2B3008D1270018A94E /* v18.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v18.mp3; sourceTree = "<group>"; };
+		BA987C2C3008D1270018A94E /* v19.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v19.mp3; sourceTree = "<group>"; };
+		BA987C2D3008D1270018A94E /* v20.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v20.mp3; sourceTree = "<group>"; };
+		BA987C2E3008D1270018A94E /* v21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v21.mp3; sourceTree = "<group>"; };
+		BA987C2F3008D1270018A94E /* v22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v22.mp3; sourceTree = "<group>"; };
+		BA987C303008D1270018A94E /* v23.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v23.mp3; sourceTree = "<group>"; };
+		BA987C313008D1270018A94E /* v24.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v24.mp3; sourceTree = "<group>"; };
+		BA987C323008D1270018A94E /* v25.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v25.mp3; sourceTree = "<group>"; };
+		BA987C333008D1270018A94E /* v26.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v26.mp3; sourceTree = "<group>"; };
+		BA987C343008D1270018A94E /* v27.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v27.mp3; sourceTree = "<group>"; };
+		BA987C353008D1270018A94E /* v28.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v28.mp3; sourceTree = "<group>"; };
+		BA987C363008D1270018A94E /* v29.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v29.mp3; sourceTree = "<group>"; };
+		BA987C373008D1270018A94E /* v30.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v30.mp3; sourceTree = "<group>"; };
+		BA987C383008D1270018A94E /* v31.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = v31.mp3; sourceTree = "<group>"; };
+		BA987C393008D1270018A94E /* الابتداء.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الابتداء.html"; sourceTree = "<group>"; };
+		BA987C3A3008D1270018A94E /* الاستعاذة والبسملة.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الاستعاذة والبسملة.html"; sourceTree = "<group>"; };
+		BA987C3B3008D1270018A94E /* التجويد.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "التجويد.html"; sourceTree = "<group>"; };
+		BA987C3C3008D1270018A94E /* التحفة السمنودية.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "التحفة السمنودية.html"; sourceTree = "<group>"; };
+		BA987C3D3008D1270018A94E /* التفخيم والترقيق.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "التفخيم والترقيق.html"; sourceTree = "<group>"; };
+		BA987C3E3008D1270018A94E /* التقاء الساكنين.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "التقاء الساكنين.html"; sourceTree = "<group>"; };
+		BA987C3F3008D1270018A94E /* الحروف والأصوات.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الحروف والأصوات.html"; sourceTree = "<group>"; };
+		BA987C403008D1270018A94E /* السلسبيل الشافي.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "السلسبيل الشافي.html"; sourceTree = "<group>"; };
+		BA987C413008D1270018A94E /* القرءان الكريم.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "القرءان الكريم.html"; sourceTree = "<group>"; };
+		BA987C423008D1270018A94E /* القراء العشرة.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "القراء العشرة.html"; sourceTree = "<group>"; };
+		BA987C433008D1270018A94E /* القراءات.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "القراءات.html"; sourceTree = "<group>"; };
+		BA987C443008D1270018A94E /* القطع.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "القطع.html"; sourceTree = "<group>"; };
+		BA987C453008D1270018A94E /* اللام الساكنة.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "اللام الساكنة.html"; sourceTree = "<group>"; };
+		BA987C463008D1270018A94E /* اللحن وأقسامه.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "اللحن وأقسامه.html"; sourceTree = "<group>"; };
+		BA987C473008D1270018A94E /* المدود.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "المدود.html"; sourceTree = "<group>"; };
+		BA987C483008D1270018A94E /* المفيد في التجويد.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "المفيد في التجويد.html"; sourceTree = "<group>"; };
+		BA987C493008D1270018A94E /* المقدمة الجزرية.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "المقدمة الجزرية.html"; sourceTree = "<group>"; };
+		BA987C4A3008D1270018A94E /* المقطوع والموصول.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "المقطوع والموصول.html"; sourceTree = "<group>"; };
+		BA987C4B3008D1270018A94E /* الميم الساكنة.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الميم الساكنة.html"; sourceTree = "<group>"; };
+		BA987C4C3008D1270018A94E /* النون الساكنة والتنوين.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "النون الساكنة والتنوين.html"; sourceTree = "<group>"; };
+		BA987C4D3008D1270018A94E /* الوقف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الوقف.html"; sourceTree = "<group>"; };
+		BA987C4E3008D1270018A94E /* الوقف على أواخر الكلم.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الوقف على أواخر الكلم.html"; sourceTree = "<group>"; };
+		BA987C4F3008D1270018A94E /* الوقف على نعم وبلى وكلا.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "الوقف على نعم وبلى وكلا.html"; sourceTree = "<group>"; };
+		BA987C503008D1270018A94E /* بهجة اللُّحَاظِ.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "بهجة اللُّحَاظِ.html"; sourceTree = "<group>"; };
+		BA987C513008D1270018A94E /* بيان المكي والمدني.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "بيان المكي والمدني.html"; sourceTree = "<group>"; };
+		BA987C523008D1270018A94E /* تاء وهاء التأنيث.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "تاء وهاء التأنيث.html"; sourceTree = "<group>"; };
+		BA987C533008D1270018A94E /* تحفة الأطفال.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "تحفة الأطفال.html"; sourceTree = "<group>"; };
+		BA987C543008D1270018A94E /* تدوين المصحف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "تدوين المصحف.html"; sourceTree = "<group>"; };
+		BA987C553008D1270018A94E /* رائية الخاقاني.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "رائية الخاقاني.html"; sourceTree = "<group>"; };
+		BA987C563008D1270018A94E /* رسم المصحف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "رسم المصحف.html"; sourceTree = "<group>"; };
+		BA987C573008D1270018A94E /* سلسلة السند.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "سلسلة السند.html"; sourceTree = "<group>"; };
+		BA987C583008D1270018A94E /* صفات الحروف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "صفات الحروف.html"; sourceTree = "<group>"; };
+		BA987C593008D1270018A94E /* ضبط المصحف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ضبط المصحف.html"; sourceTree = "<group>"; };
+		BA987C5A3008D1270018A94E /* علاقة الحروف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "علاقة الحروف.html"; sourceTree = "<group>"; };
+		BA987C5B3008D1270018A94E /* عن التطبيق.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "عن التطبيق.html"; sourceTree = "<group>"; };
+		BA987C5C3008D1270018A94E /* قصر المنفصل.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "قصر المنفصل.html"; sourceTree = "<group>"; };
+		BA987C5D3008D1270018A94E /* لآلئ البيان.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "لآلئ البيان.html"; sourceTree = "<group>"; };
+		BA987C5E3008D1270018A94E /* ما يراعى لحفص.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ما يراعى لحفص.html"; sourceTree = "<group>"; };
+		BA987C5F3008D1270018A94E /* مخارج وألقاب الحروف.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "مخارج وألقاب الحروف.html"; sourceTree = "<group>"; };
+		BA987C603008D1270018A94E /* نونية السخاوي.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "نونية السخاوي.html"; sourceTree = "<group>"; };
+		BA987C613008D1270018A94E /* هاء الكناية.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "هاء الكناية.html"; sourceTree = "<group>"; };
+		BA987C623008D1270018A94E /* همزة القطع وهمزة الوصل.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "همزة القطع وهمزة الوصل.html"; sourceTree = "<group>"; };
+		BA987C633008D1270018A94E /* ياءات الإضافة والزوائد.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = "ياءات الإضافة والزوائد.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +642,7 @@
 		BA9876593007DEF00018A94E = {
 			isa = PBXGroup;
 			children = (
+				BA987BD13007E30F0018A94E /* Resources */,
 				BA9876643007DEF00018A94E /* دليل  حفص */,
 				BA9876723007DEF30018A94E /* دليل  حفصTests */,
 				BA98767C3007DEF30018A94E /* دليل  حفصUITests */,
@@ -90,6 +658,154 @@
 				BA9876793007DEF30018A94E /* دليل  حفصUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BA987BD13007E30F0018A94E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA987BD73008D1270018A94E /* fhacen.ttf */,
+				BA987BD83008D1270018A94E /* fhafs.otf */,
+				BA987BD93008D1270018A94E /* p02.jpg */,
+				BA987BDA3008D1270018A94E /* p04.jpg */,
+				BA987BDB3008D1270018A94E /* p05.jpg */,
+				BA987BDC3008D1270018A94E /* p06.jpg */,
+				BA987BDD3008D1270018A94E /* p07.jpg */,
+				BA987BDE3008D1270018A94E /* p08.jpg */,
+				BA987BDF3008D1270018A94E /* p09.jpg */,
+				BA987BE03008D1270018A94E /* p10.jpg */,
+				BA987BE13008D1270018A94E /* p12.jpg */,
+				BA987BE23008D1270018A94E /* p13.jpg */,
+				BA987BE33008D1270018A94E /* p14.jpg */,
+				BA987BE43008D1270018A94E /* p15.jpg */,
+				BA987BE53008D1270018A94E /* p16.jpg */,
+				BA987BE63008D1270018A94E /* p17.jpg */,
+				BA987BE73008D1270018A94E /* p18.jpg */,
+				BA987BE83008D1270018A94E /* p19.jpg */,
+				BA987BE93008D1270018A94E /* p20.jpg */,
+				BA987BEA3008D1270018A94E /* p21.jpg */,
+				BA987BEB3008D1270018A94E /* p22.jpg */,
+				BA987BEC3008D1270018A94E /* p23.jpg */,
+				BA987BED3008D1270018A94E /* p24.jpg */,
+				BA987BEE3008D1270018A94E /* p25.jpg */,
+				BA987BEF3008D1270018A94E /* p26.jpg */,
+				BA987BF03008D1270018A94E /* p27.jpg */,
+				BA987BF13008D1270018A94E /* p28.jpg */,
+				BA987BF23008D1270018A94E /* p29.jpg */,
+				BA987BF33008D1270018A94E /* p30.jpg */,
+				BA987BF43008D1270018A94E /* p31.jpg */,
+				BA987BF53008D1270018A94E /* p32.jpg */,
+				BA987BF63008D1270018A94E /* p33.jpg */,
+				BA987BF73008D1270018A94E /* p35.jpg */,
+				BA987BF83008D1270018A94E /* p36.jpg */,
+				BA987BF93008D1270018A94E /* p37.jpg */,
+				BA987BFA3008D1270018A94E /* p38.jpg */,
+				BA987BFB3008D1270018A94E /* p39.jpg */,
+				BA987BFC3008D1270018A94E /* p40.jpg */,
+				BA987BFD3008D1270018A94E /* p41.jpg */,
+				BA987BFE3008D1270018A94E /* p42.jpg */,
+				BA987BFF3008D1270018A94E /* p43.jpg */,
+				BA987C003008D1270018A94E /* p44.jpg */,
+				BA987C013008D1270018A94E /* p45.jpg */,
+				BA987C023008D1270018A94E /* p46.jpg */,
+				BA987C033008D1270018A94E /* p47.jpg */,
+				BA987C043008D1270018A94E /* p48.jpg */,
+				BA987C053008D1270018A94E /* p49.jpg */,
+				BA987C063008D1270018A94E /* p50.jpg */,
+				BA987C073008D1270018A94E /* p51.jpg */,
+				BA987C083008D1270018A94E /* p52.jpg */,
+				BA987C093008D1270018A94E /* p53.jpg */,
+				BA987C0A3008D1270018A94E /* p54.jpg */,
+				BA987C0B3008D1270018A94E /* p55.jpg */,
+				BA987C0C3008D1270018A94E /* p58.jpg */,
+				BA987C0D3008D1270018A94E /* p59.jpg */,
+				BA987C0E3008D1270018A94E /* p60.jpg */,
+				BA987C0F3008D1270018A94E /* p67.jpg */,
+				BA987C103008D1270018A94E /* p98.png */,
+				BA987C113008D1270018A94E /* p99.jpg */,
+				BA987C123008D1270018A94E /* p100.jpg */,
+				BA987C133008D1270018A94E /* p101.jpg */,
+				BA987C143008D1270018A94E /* p102.jpg */,
+				BA987C153008D1270018A94E /* p103.jpg */,
+				BA987C163008D1270018A94E /* p104.jpg */,
+				BA987C173008D1270018A94E /* p105.jpg */,
+				BA987C183008D1270018A94E /* p106.jpg */,
+				BA987C193008D1270018A94E /* stylesheet.css */,
+				BA987C1A3008D1270018A94E /* v1.mp3 */,
+				BA987C1B3008D1270018A94E /* v2.mp3 */,
+				BA987C1C3008D1270018A94E /* v3.mp3 */,
+				BA987C1D3008D1270018A94E /* v4.mp3 */,
+				BA987C1E3008D1270018A94E /* v5.mp3 */,
+				BA987C1F3008D1270018A94E /* v6.mp3 */,
+				BA987C203008D1270018A94E /* v7.mp3 */,
+				BA987C213008D1270018A94E /* v8.mp3 */,
+				BA987C223008D1270018A94E /* v9.mp3 */,
+				BA987C233008D1270018A94E /* v10.mp3 */,
+				BA987C243008D1270018A94E /* v11.mp3 */,
+				BA987C253008D1270018A94E /* v12.mp3 */,
+				BA987C263008D1270018A94E /* v13.mp3 */,
+				BA987C273008D1270018A94E /* v14.mp3 */,
+				BA987C283008D1270018A94E /* v15.mp3 */,
+				BA987C293008D1270018A94E /* v16.mp3 */,
+				BA987C2A3008D1270018A94E /* v17.mp3 */,
+				BA987C2B3008D1270018A94E /* v18.mp3 */,
+				BA987C2C3008D1270018A94E /* v19.mp3 */,
+				BA987C2D3008D1270018A94E /* v20.mp3 */,
+				BA987C2E3008D1270018A94E /* v21.mp3 */,
+				BA987C2F3008D1270018A94E /* v22.mp3 */,
+				BA987C303008D1270018A94E /* v23.mp3 */,
+				BA987C313008D1270018A94E /* v24.mp3 */,
+				BA987C323008D1270018A94E /* v25.mp3 */,
+				BA987C333008D1270018A94E /* v26.mp3 */,
+				BA987C343008D1270018A94E /* v27.mp3 */,
+				BA987C353008D1270018A94E /* v28.mp3 */,
+				BA987C363008D1270018A94E /* v29.mp3 */,
+				BA987C373008D1270018A94E /* v30.mp3 */,
+				BA987C383008D1270018A94E /* v31.mp3 */,
+				BA987C393008D1270018A94E /* الابتداء.html */,
+				BA987C3A3008D1270018A94E /* الاستعاذة والبسملة.html */,
+				BA987C3B3008D1270018A94E /* التجويد.html */,
+				BA987C3C3008D1270018A94E /* التحفة السمنودية.html */,
+				BA987C3D3008D1270018A94E /* التفخيم والترقيق.html */,
+				BA987C3E3008D1270018A94E /* التقاء الساكنين.html */,
+				BA987C3F3008D1270018A94E /* الحروف والأصوات.html */,
+				BA987C403008D1270018A94E /* السلسبيل الشافي.html */,
+				BA987C413008D1270018A94E /* القرءان الكريم.html */,
+				BA987C423008D1270018A94E /* القراء العشرة.html */,
+				BA987C433008D1270018A94E /* القراءات.html */,
+				BA987C443008D1270018A94E /* القطع.html */,
+				BA987C453008D1270018A94E /* اللام الساكنة.html */,
+				BA987C463008D1270018A94E /* اللحن وأقسامه.html */,
+				BA987C473008D1270018A94E /* المدود.html */,
+				BA987C483008D1270018A94E /* المفيد في التجويد.html */,
+				BA987C493008D1270018A94E /* المقدمة الجزرية.html */,
+				BA987C4A3008D1270018A94E /* المقطوع والموصول.html */,
+				BA987C4B3008D1270018A94E /* الميم الساكنة.html */,
+				BA987C4C3008D1270018A94E /* النون الساكنة والتنوين.html */,
+				BA987C4D3008D1270018A94E /* الوقف.html */,
+				BA987C4E3008D1270018A94E /* الوقف على أواخر الكلم.html */,
+				BA987C4F3008D1270018A94E /* الوقف على نعم وبلى وكلا.html */,
+				BA987C503008D1270018A94E /* بهجة اللُّحَاظِ.html */,
+				BA987C513008D1270018A94E /* بيان المكي والمدني.html */,
+				BA987C523008D1270018A94E /* تاء وهاء التأنيث.html */,
+				BA987C533008D1270018A94E /* تحفة الأطفال.html */,
+				BA987C543008D1270018A94E /* تدوين المصحف.html */,
+				BA987C553008D1270018A94E /* رائية الخاقاني.html */,
+				BA987C563008D1270018A94E /* رسم المصحف.html */,
+				BA987C573008D1270018A94E /* سلسلة السند.html */,
+				BA987C583008D1270018A94E /* صفات الحروف.html */,
+				BA987C593008D1270018A94E /* ضبط المصحف.html */,
+				BA987C5A3008D1270018A94E /* علاقة الحروف.html */,
+				BA987C5B3008D1270018A94E /* عن التطبيق.html */,
+				BA987C5C3008D1270018A94E /* قصر المنفصل.html */,
+				BA987C5D3008D1270018A94E /* لآلئ البيان.html */,
+				BA987C5E3008D1270018A94E /* ما يراعى لحفص.html */,
+				BA987C5F3008D1270018A94E /* مخارج وألقاب الحروف.html */,
+				BA987C603008D1270018A94E /* نونية السخاوي.html */,
+				BA987C613008D1270018A94E /* هاء الكناية.html */,
+				BA987C623008D1270018A94E /* همزة القطع وهمزة الوصل.html */,
+				BA987C633008D1270018A94E /* ياءات الإضافة والزوائد.html */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +928,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA987CF13008D1270018A94E /* fhacen.ttf in Resources */,
+				BA987CF23008D1270018A94E /* التحفة السمنودية.html in Resources */,
+				BA987CF33008D1270018A94E /* p46.jpg in Resources */,
+				BA987CF43008D1270018A94E /* علاقة الحروف.html in Resources */,
+				BA987CF53008D1270018A94E /* p21.jpg in Resources */,
+				BA987CF63008D1270018A94E /* p22.jpg in Resources */,
+				BA987CF73008D1270018A94E /* p28.jpg in Resources */,
+				BA987CF83008D1270018A94E /* p37.jpg in Resources */,
+				BA987CF93008D1270018A94E /* v26.mp3 in Resources */,
+				BA987CFA3008D1270018A94E /* p17.jpg in Resources */,
+				BA987CFB3008D1270018A94E /* v31.mp3 in Resources */,
+				BA987CFC3008D1270018A94E /* v4.mp3 in Resources */,
+				BA987CFD3008D1270018A94E /* p18.jpg in Resources */,
+				BA987CFE3008D1270018A94E /* p47.jpg in Resources */,
+				BA987CFF3008D1270018A94E /* القرءان الكريم.html in Resources */,
+				BA987D003008D1270018A94E /* التقاء الساكنين.html in Resources */,
+				BA987D013008D1270018A94E /* تحفة الأطفال.html in Resources */,
+				BA987D023008D1270018A94E /* p106.jpg in Resources */,
+				BA987D033008D1270018A94E /* ضبط المصحف.html in Resources */,
+				BA987D043008D1270018A94E /* v23.mp3 in Resources */,
+				BA987D053008D1270018A94E /* v28.mp3 in Resources */,
+				BA987D063008D1270018A94E /* p06.jpg in Resources */,
+				BA987D073008D1270018A94E /* p48.jpg in Resources */,
+				BA987D083008D1270018A94E /* المقدمة الجزرية.html in Resources */,
+				BA987D093008D1270018A94E /* p33.jpg in Resources */,
+				BA987D0A3008D1270018A94E /* p30.jpg in Resources */,
+				BA987D0B3008D1270018A94E /* عن التطبيق.html in Resources */,
+				BA987D0C3008D1270018A94E /* بيان المكي والمدني.html in Resources */,
+				BA987D0D3008D1270018A94E /* اللحن وأقسامه.html in Resources */,
+				BA987D0E3008D1270018A94E /* p14.jpg in Resources */,
+				BA987D0F3008D1270018A94E /* v22.mp3 in Resources */,
+				BA987D103008D1270018A94E /* v5.mp3 in Resources */,
+				BA987D113008D1270018A94E /* v29.mp3 in Resources */,
+				BA987D123008D1270018A94E /* p19.jpg in Resources */,
+				BA987D133008D1270018A94E /* v14.mp3 in Resources */,
+				BA987D143008D1270018A94E /* p13.jpg in Resources */,
+				BA987D153008D1270018A94E /* نونية السخاوي.html in Resources */,
+				BA987D163008D1270018A94E /* p50.jpg in Resources */,
+				BA987D173008D1270018A94E /* p58.jpg in Resources */,
+				BA987D183008D1270018A94E /* p55.jpg in Resources */,
+				BA987D193008D1270018A94E /* p39.jpg in Resources */,
+				BA987D1A3008D1270018A94E /* stylesheet.css in Resources */,
+				BA987D1B3008D1270018A94E /* p43.jpg in Resources */,
+				BA987D1C3008D1270018A94E /* قصر المنفصل.html in Resources */,
+				BA987D1D3008D1270018A94E /* p98.png in Resources */,
+				BA987D1E3008D1270018A94E /* p49.jpg in Resources */,
+				BA987D1F3008D1270018A94E /* الوقف.html in Resources */,
+				BA987D203008D1270018A94E /* p60.jpg in Resources */,
+				BA987D213008D1270018A94E /* ما يراعى لحفص.html in Resources */,
+				BA987D223008D1270018A94E /* p99.jpg in Resources */,
+				BA987D233008D1270018A94E /* p53.jpg in Resources */,
+				BA987D243008D1270018A94E /* p32.jpg in Resources */,
+				BA987D253008D1270018A94E /* p101.jpg in Resources */,
+				BA987D263008D1270018A94E /* الوقف على أواخر الكلم.html in Resources */,
+				BA987D273008D1270018A94E /* بهجة اللُّحَاظِ.html in Resources */,
+				BA987D283008D1270018A94E /* رسم المصحف.html in Resources */,
+				BA987D293008D1270018A94E /* p59.jpg in Resources */,
+				BA987D2A3008D1270018A94E /* p27.jpg in Resources */,
+				BA987D2B3008D1270018A94E /* p25.jpg in Resources */,
+				BA987D2C3008D1270018A94E /* مخارج وألقاب الحروف.html in Resources */,
+				BA987D2D3008D1270018A94E /* الميم الساكنة.html in Resources */,
+				BA987D2E3008D1270018A94E /* صفات الحروف.html in Resources */,
+				BA987D2F3008D1270018A94E /* v18.mp3 in Resources */,
+				BA987D303008D1270018A94E /* p23.jpg in Resources */,
+				BA987D313008D1270018A94E /* المفيد في التجويد.html in Resources */,
+				BA987D323008D1270018A94E /* v1.mp3 in Resources */,
+				BA987D333008D1270018A94E /* p52.jpg in Resources */,
+				BA987D343008D1270018A94E /* p16.jpg in Resources */,
+				BA987D353008D1270018A94E /* v8.mp3 in Resources */,
+				BA987D363008D1270018A94E /* p08.jpg in Resources */,
+				BA987D373008D1270018A94E /* p54.jpg in Resources */,
+				BA987D383008D1270018A94E /* الابتداء.html in Resources */,
+				BA987D393008D1270018A94E /* v7.mp3 in Resources */,
+				BA987D3A3008D1270018A94E /* القراءات.html in Resources */,
+				BA987D3B3008D1270018A94E /* تاء وهاء التأنيث.html in Resources */,
+				BA987D3C3008D1270018A94E /* p102.jpg in Resources */,
+				BA987D3D3008D1270018A94E /* v13.mp3 in Resources */,
+				BA987D3E3008D1270018A94E /* v25.mp3 in Resources */,
+				BA987D3F3008D1270018A94E /* سلسلة السند.html in Resources */,
+				BA987D403008D1270018A94E /* p20.jpg in Resources */,
+				BA987D413008D1270018A94E /* p09.jpg in Resources */,
+				BA987D423008D1270018A94E /* p36.jpg in Resources */,
+				BA987D433008D1270018A94E /* p44.jpg in Resources */,
+				BA987D443008D1270018A94E /* p105.jpg in Resources */,
+				BA987D453008D1270018A94E /* التجويد.html in Resources */,
+				BA987D463008D1270018A94E /* p35.jpg in Resources */,
+				BA987D473008D1270018A94E /* p67.jpg in Resources */,
+				BA987D483008D1270018A94E /* همزة القطع وهمزة الوصل.html in Resources */,
+				BA987D493008D1270018A94E /* الحروف والأصوات.html in Resources */,
+				BA987D4A3008D1270018A94E /* p12.jpg in Resources */,
+				BA987D4B3008D1270018A94E /* v30.mp3 in Resources */,
+				BA987D4C3008D1270018A94E /* القطع.html in Resources */,
+				BA987D4D3008D1270018A94E /* p24.jpg in Resources */,
+				BA987D4E3008D1270018A94E /* v2.mp3 in Resources */,
+				BA987D4F3008D1270018A94E /* v3.mp3 in Resources */,
+				BA987D503008D1270018A94E /* v15.mp3 in Resources */,
+				BA987D513008D1270018A94E /* القراء العشرة.html in Resources */,
+				BA987D523008D1270018A94E /* الاستعاذة والبسملة.html in Resources */,
+				BA987D533008D1270018A94E /* v24.mp3 in Resources */,
+				BA987D543008D1270018A94E /* p100.jpg in Resources */,
+				BA987D553008D1270018A94E /* p10.jpg in Resources */,
+				BA987D563008D1270018A94E /* p103.jpg in Resources */,
+				BA987D573008D1270018A94E /* p41.jpg in Resources */,
+				BA987D583008D1270018A94E /* p51.jpg in Resources */,
+				BA987D593008D1270018A94E /* p38.jpg in Resources */,
+				BA987D5A3008D1270018A94E /* v10.mp3 in Resources */,
+				BA987D5B3008D1270018A94E /* التفخيم والترقيق.html in Resources */,
+				BA987D5C3008D1270018A94E /* fhafs.otf in Resources */,
+				BA987D5D3008D1270018A94E /* p05.jpg in Resources */,
+				BA987D5E3008D1270018A94E /* النون الساكنة والتنوين.html in Resources */,
+				BA987D5F3008D1270018A94E /* p45.jpg in Resources */,
+				BA987D603008D1270018A94E /* p29.jpg in Resources */,
+				BA987D613008D1270018A94E /* p15.jpg in Resources */,
+				BA987D623008D1270018A94E /* المدود.html in Resources */,
+				BA987D633008D1270018A94E /* p31.jpg in Resources */,
+				BA987D643008D1270018A94E /* v19.mp3 in Resources */,
+				BA987D653008D1270018A94E /* p42.jpg in Resources */,
+				BA987D663008D1270018A94E /* v17.mp3 in Resources */,
+				BA987D673008D1270018A94E /* v20.mp3 in Resources */,
+				BA987D683008D1270018A94E /* المقطوع والموصول.html in Resources */,
+				BA987D693008D1270018A94E /* v27.mp3 in Resources */,
+				BA987D6A3008D1270018A94E /* p07.jpg in Resources */,
+				BA987D6B3008D1270018A94E /* p02.jpg in Resources */,
+				BA987D6C3008D1270018A94E /* p26.jpg in Resources */,
+				BA987D6D3008D1270018A94E /* الوقف على نعم وبلى وكلا.html in Resources */,
+				BA987D6E3008D1270018A94E /* p104.jpg in Resources */,
+				BA987D6F3008D1270018A94E /* v6.mp3 in Resources */,
+				BA987D703008D1270018A94E /* v11.mp3 in Resources */,
+				BA987D713008D1270018A94E /* p04.jpg in Resources */,
+				BA987D723008D1270018A94E /* v16.mp3 in Resources */,
+				BA987D733008D1270018A94E /* السلسبيل الشافي.html in Resources */,
+				BA987D743008D1270018A94E /* تدوين المصحف.html in Resources */,
+				BA987D753008D1270018A94E /* رائية الخاقاني.html in Resources */,
+				BA987D763008D1270018A94E /* p40.jpg in Resources */,
+				BA987D773008D1270018A94E /* v21.mp3 in Resources */,
+				BA987D783008D1270018A94E /* هاء الكناية.html in Resources */,
+				BA987D793008D1270018A94E /* ياءات الإضافة والزوائد.html in Resources */,
+				BA987D7A3008D1270018A94E /* v9.mp3 in Resources */,
+				BA987D7B3008D1270018A94E /* اللام الساكنة.html in Resources */,
+				BA987D7C3008D1270018A94E /* v12.mp3 in Resources */,
+				BA987D7D3008D1270018A94E /* لآلئ البيان.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +1076,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA987D7E3008D1270018A94E /* fhacen.ttf in Resources */,
+				BA987D7F3008D1270018A94E /* التحفة السمنودية.html in Resources */,
+				BA987D803008D1270018A94E /* p46.jpg in Resources */,
+				BA987D813008D1270018A94E /* علاقة الحروف.html in Resources */,
+				BA987D823008D1270018A94E /* p21.jpg in Resources */,
+				BA987D833008D1270018A94E /* p22.jpg in Resources */,
+				BA987D843008D1270018A94E /* p28.jpg in Resources */,
+				BA987D853008D1270018A94E /* p37.jpg in Resources */,
+				BA987D863008D1270018A94E /* v26.mp3 in Resources */,
+				BA987D873008D1270018A94E /* p17.jpg in Resources */,
+				BA987D883008D1270018A94E /* v31.mp3 in Resources */,
+				BA987D893008D1270018A94E /* v4.mp3 in Resources */,
+				BA987D8A3008D1270018A94E /* p18.jpg in Resources */,
+				BA987D8B3008D1270018A94E /* p47.jpg in Resources */,
+				BA987D8C3008D1270018A94E /* القرءان الكريم.html in Resources */,
+				BA987D8D3008D1270018A94E /* التقاء الساكنين.html in Resources */,
+				BA987D8E3008D1270018A94E /* تحفة الأطفال.html in Resources */,
+				BA987D8F3008D1270018A94E /* p106.jpg in Resources */,
+				BA987D903008D1270018A94E /* ضبط المصحف.html in Resources */,
+				BA987D913008D1270018A94E /* v23.mp3 in Resources */,
+				BA987D923008D1270018A94E /* v28.mp3 in Resources */,
+				BA987D933008D1270018A94E /* p06.jpg in Resources */,
+				BA987D943008D1270018A94E /* p48.jpg in Resources */,
+				BA987D953008D1270018A94E /* المقدمة الجزرية.html in Resources */,
+				BA987D963008D1270018A94E /* p33.jpg in Resources */,
+				BA987D973008D1270018A94E /* p30.jpg in Resources */,
+				BA987D983008D1270018A94E /* عن التطبيق.html in Resources */,
+				BA987D993008D1270018A94E /* بيان المكي والمدني.html in Resources */,
+				BA987D9A3008D1270018A94E /* اللحن وأقسامه.html in Resources */,
+				BA987D9B3008D1270018A94E /* p14.jpg in Resources */,
+				BA987D9C3008D1270018A94E /* v22.mp3 in Resources */,
+				BA987D9D3008D1270018A94E /* v5.mp3 in Resources */,
+				BA987D9E3008D1270018A94E /* v29.mp3 in Resources */,
+				BA987D9F3008D1270018A94E /* p19.jpg in Resources */,
+				BA987DA03008D1270018A94E /* v14.mp3 in Resources */,
+				BA987DA13008D1270018A94E /* p13.jpg in Resources */,
+				BA987DA23008D1270018A94E /* نونية السخاوي.html in Resources */,
+				BA987DA33008D1270018A94E /* p50.jpg in Resources */,
+				BA987DA43008D1270018A94E /* p58.jpg in Resources */,
+				BA987DA53008D1270018A94E /* p55.jpg in Resources */,
+				BA987DA63008D1270018A94E /* p39.jpg in Resources */,
+				BA987DA73008D1270018A94E /* stylesheet.css in Resources */,
+				BA987DA83008D1270018A94E /* p43.jpg in Resources */,
+				BA987DA93008D1270018A94E /* قصر المنفصل.html in Resources */,
+				BA987DAA3008D1270018A94E /* p98.png in Resources */,
+				BA987DAB3008D1270018A94E /* p49.jpg in Resources */,
+				BA987DAC3008D1270018A94E /* الوقف.html in Resources */,
+				BA987DAD3008D1270018A94E /* p60.jpg in Resources */,
+				BA987DAE3008D1270018A94E /* ما يراعى لحفص.html in Resources */,
+				BA987DAF3008D1270018A94E /* p99.jpg in Resources */,
+				BA987DB03008D1270018A94E /* p53.jpg in Resources */,
+				BA987DB13008D1270018A94E /* p32.jpg in Resources */,
+				BA987DB23008D1270018A94E /* p101.jpg in Resources */,
+				BA987DB33008D1270018A94E /* الوقف على أواخر الكلم.html in Resources */,
+				BA987DB43008D1270018A94E /* بهجة اللُّحَاظِ.html in Resources */,
+				BA987DB53008D1270018A94E /* رسم المصحف.html in Resources */,
+				BA987DB63008D1270018A94E /* p59.jpg in Resources */,
+				BA987DB73008D1270018A94E /* p27.jpg in Resources */,
+				BA987DB83008D1270018A94E /* p25.jpg in Resources */,
+				BA987DB93008D1270018A94E /* مخارج وألقاب الحروف.html in Resources */,
+				BA987DBA3008D1270018A94E /* الميم الساكنة.html in Resources */,
+				BA987DBB3008D1270018A94E /* صفات الحروف.html in Resources */,
+				BA987DBC3008D1270018A94E /* v18.mp3 in Resources */,
+				BA987DBD3008D1270018A94E /* p23.jpg in Resources */,
+				BA987DBE3008D1270018A94E /* المفيد في التجويد.html in Resources */,
+				BA987DBF3008D1270018A94E /* v1.mp3 in Resources */,
+				BA987DC03008D1270018A94E /* p52.jpg in Resources */,
+				BA987DC13008D1270018A94E /* p16.jpg in Resources */,
+				BA987DC23008D1270018A94E /* v8.mp3 in Resources */,
+				BA987DC33008D1270018A94E /* p08.jpg in Resources */,
+				BA987DC43008D1270018A94E /* p54.jpg in Resources */,
+				BA987DC53008D1270018A94E /* الابتداء.html in Resources */,
+				BA987DC63008D1270018A94E /* v7.mp3 in Resources */,
+				BA987DC73008D1270018A94E /* القراءات.html in Resources */,
+				BA987DC83008D1270018A94E /* تاء وهاء التأنيث.html in Resources */,
+				BA987DC93008D1270018A94E /* p102.jpg in Resources */,
+				BA987DCA3008D1270018A94E /* v13.mp3 in Resources */,
+				BA987DCB3008D1270018A94E /* v25.mp3 in Resources */,
+				BA987DCC3008D1270018A94E /* سلسلة السند.html in Resources */,
+				BA987DCD3008D1270018A94E /* p20.jpg in Resources */,
+				BA987DCE3008D1270018A94E /* p09.jpg in Resources */,
+				BA987DCF3008D1270018A94E /* p36.jpg in Resources */,
+				BA987DD03008D1270018A94E /* p44.jpg in Resources */,
+				BA987DD13008D1270018A94E /* p105.jpg in Resources */,
+				BA987DD23008D1270018A94E /* التجويد.html in Resources */,
+				BA987DD33008D1270018A94E /* p35.jpg in Resources */,
+				BA987DD43008D1270018A94E /* p67.jpg in Resources */,
+				BA987DD53008D1270018A94E /* همزة القطع وهمزة الوصل.html in Resources */,
+				BA987DD63008D1270018A94E /* الحروف والأصوات.html in Resources */,
+				BA987DD73008D1270018A94E /* p12.jpg in Resources */,
+				BA987DD83008D1270018A94E /* v30.mp3 in Resources */,
+				BA987DD93008D1270018A94E /* القطع.html in Resources */,
+				BA987DDA3008D1270018A94E /* p24.jpg in Resources */,
+				BA987DDB3008D1270018A94E /* v2.mp3 in Resources */,
+				BA987DDC3008D1270018A94E /* v3.mp3 in Resources */,
+				BA987DDD3008D1270018A94E /* v15.mp3 in Resources */,
+				BA987DDE3008D1270018A94E /* القراء العشرة.html in Resources */,
+				BA987DDF3008D1270018A94E /* الاستعاذة والبسملة.html in Resources */,
+				BA987DE03008D1270018A94E /* v24.mp3 in Resources */,
+				BA987DE13008D1270018A94E /* p100.jpg in Resources */,
+				BA987DE23008D1270018A94E /* p10.jpg in Resources */,
+				BA987DE33008D1270018A94E /* p103.jpg in Resources */,
+				BA987DE43008D1270018A94E /* p41.jpg in Resources */,
+				BA987DE53008D1270018A94E /* p51.jpg in Resources */,
+				BA987DE63008D1270018A94E /* p38.jpg in Resources */,
+				BA987DE73008D1270018A94E /* v10.mp3 in Resources */,
+				BA987DE83008D1270018A94E /* التفخيم والترقيق.html in Resources */,
+				BA987DE93008D1270018A94E /* fhafs.otf in Resources */,
+				BA987DEA3008D1270018A94E /* p05.jpg in Resources */,
+				BA987DEB3008D1270018A94E /* النون الساكنة والتنوين.html in Resources */,
+				BA987DEC3008D1270018A94E /* p45.jpg in Resources */,
+				BA987DED3008D1270018A94E /* p29.jpg in Resources */,
+				BA987DEE3008D1270018A94E /* p15.jpg in Resources */,
+				BA987DEF3008D1270018A94E /* المدود.html in Resources */,
+				BA987DF03008D1270018A94E /* p31.jpg in Resources */,
+				BA987DF13008D1270018A94E /* v19.mp3 in Resources */,
+				BA987DF23008D1270018A94E /* p42.jpg in Resources */,
+				BA987DF33008D1270018A94E /* v17.mp3 in Resources */,
+				BA987DF43008D1270018A94E /* v20.mp3 in Resources */,
+				BA987DF53008D1270018A94E /* المقطوع والموصول.html in Resources */,
+				BA987DF63008D1270018A94E /* v27.mp3 in Resources */,
+				BA987DF73008D1270018A94E /* p07.jpg in Resources */,
+				BA987DF83008D1270018A94E /* p02.jpg in Resources */,
+				BA987DF93008D1270018A94E /* p26.jpg in Resources */,
+				BA987DFA3008D1270018A94E /* الوقف على نعم وبلى وكلا.html in Resources */,
+				BA987DFB3008D1270018A94E /* p104.jpg in Resources */,
+				BA987DFC3008D1270018A94E /* v6.mp3 in Resources */,
+				BA987DFD3008D1270018A94E /* v11.mp3 in Resources */,
+				BA987DFE3008D1270018A94E /* p04.jpg in Resources */,
+				BA987DFF3008D1270018A94E /* v16.mp3 in Resources */,
+				BA987E003008D1270018A94E /* السلسبيل الشافي.html in Resources */,
+				BA987E013008D1270018A94E /* تدوين المصحف.html in Resources */,
+				BA987E023008D1270018A94E /* رائية الخاقاني.html in Resources */,
+				BA987E033008D1270018A94E /* p40.jpg in Resources */,
+				BA987E043008D1270018A94E /* v21.mp3 in Resources */,
+				BA987E053008D1270018A94E /* هاء الكناية.html in Resources */,
+				BA987E063008D1270018A94E /* ياءات الإضافة والزوائد.html in Resources */,
+				BA987E073008D1270018A94E /* v9.mp3 in Resources */,
+				BA987E083008D1270018A94E /* اللام الساكنة.html in Resources */,
+				BA987E093008D1270018A94E /* v12.mp3 in Resources */,
+				BA987E0A3008D1270018A94E /* لآلئ البيان.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +1224,147 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA987C643008D1270018A94E /* fhacen.ttf in Resources */,
+				BA987C653008D1270018A94E /* التحفة السمنودية.html in Resources */,
+				BA987C663008D1270018A94E /* p46.jpg in Resources */,
+				BA987C673008D1270018A94E /* علاقة الحروف.html in Resources */,
+				BA987C683008D1270018A94E /* p21.jpg in Resources */,
+				BA987C693008D1270018A94E /* p22.jpg in Resources */,
+				BA987C6A3008D1270018A94E /* p28.jpg in Resources */,
+				BA987C6B3008D1270018A94E /* p37.jpg in Resources */,
+				BA987C6C3008D1270018A94E /* v26.mp3 in Resources */,
+				BA987C6D3008D1270018A94E /* p17.jpg in Resources */,
+				BA987C6E3008D1270018A94E /* v31.mp3 in Resources */,
+				BA987C6F3008D1270018A94E /* v4.mp3 in Resources */,
+				BA987C703008D1270018A94E /* p18.jpg in Resources */,
+				BA987C713008D1270018A94E /* p47.jpg in Resources */,
+				BA987C723008D1270018A94E /* القرءان الكريم.html in Resources */,
+				BA987C733008D1270018A94E /* التقاء الساكنين.html in Resources */,
+				BA987C743008D1270018A94E /* تحفة الأطفال.html in Resources */,
+				BA987C753008D1270018A94E /* p106.jpg in Resources */,
+				BA987C763008D1270018A94E /* ضبط المصحف.html in Resources */,
+				BA987C773008D1270018A94E /* v23.mp3 in Resources */,
+				BA987C783008D1270018A94E /* v28.mp3 in Resources */,
+				BA987C793008D1270018A94E /* p06.jpg in Resources */,
+				BA987C7A3008D1270018A94E /* p48.jpg in Resources */,
+				BA987C7B3008D1270018A94E /* المقدمة الجزرية.html in Resources */,
+				BA987C7C3008D1270018A94E /* p33.jpg in Resources */,
+				BA987C7D3008D1270018A94E /* p30.jpg in Resources */,
+				BA987C7E3008D1270018A94E /* عن التطبيق.html in Resources */,
+				BA987C7F3008D1270018A94E /* بيان المكي والمدني.html in Resources */,
+				BA987C803008D1270018A94E /* اللحن وأقسامه.html in Resources */,
+				BA987C813008D1270018A94E /* p14.jpg in Resources */,
+				BA987C823008D1270018A94E /* v22.mp3 in Resources */,
+				BA987C833008D1270018A94E /* v5.mp3 in Resources */,
+				BA987C843008D1270018A94E /* v29.mp3 in Resources */,
+				BA987C853008D1270018A94E /* p19.jpg in Resources */,
+				BA987C863008D1270018A94E /* v14.mp3 in Resources */,
+				BA987C873008D1270018A94E /* p13.jpg in Resources */,
+				BA987C883008D1270018A94E /* نونية السخاوي.html in Resources */,
+				BA987C893008D1270018A94E /* p50.jpg in Resources */,
+				BA987C8A3008D1270018A94E /* p58.jpg in Resources */,
+				BA987C8B3008D1270018A94E /* p55.jpg in Resources */,
+				BA987C8C3008D1270018A94E /* p39.jpg in Resources */,
+				BA987C8D3008D1270018A94E /* stylesheet.css in Resources */,
+				BA987C8E3008D1270018A94E /* p43.jpg in Resources */,
+				BA987C8F3008D1270018A94E /* قصر المنفصل.html in Resources */,
+				BA987C903008D1270018A94E /* p98.png in Resources */,
+				BA987C913008D1270018A94E /* p49.jpg in Resources */,
+				BA987C923008D1270018A94E /* الوقف.html in Resources */,
+				BA987C933008D1270018A94E /* p60.jpg in Resources */,
+				BA987C943008D1270018A94E /* ما يراعى لحفص.html in Resources */,
+				BA987C953008D1270018A94E /* p99.jpg in Resources */,
+				BA987C963008D1270018A94E /* p53.jpg in Resources */,
+				BA987C973008D1270018A94E /* p32.jpg in Resources */,
+				BA987C983008D1270018A94E /* p101.jpg in Resources */,
+				BA987C993008D1270018A94E /* الوقف على أواخر الكلم.html in Resources */,
+				BA987C9A3008D1270018A94E /* بهجة اللُّحَاظِ.html in Resources */,
+				BA987C9B3008D1270018A94E /* رسم المصحف.html in Resources */,
+				BA987C9C3008D1270018A94E /* p59.jpg in Resources */,
+				BA987C9D3008D1270018A94E /* p27.jpg in Resources */,
+				BA987C9E3008D1270018A94E /* p25.jpg in Resources */,
+				BA987C9F3008D1270018A94E /* مخارج وألقاب الحروف.html in Resources */,
+				BA987CA03008D1270018A94E /* الميم الساكنة.html in Resources */,
+				BA987CA13008D1270018A94E /* صفات الحروف.html in Resources */,
+				BA987CA23008D1270018A94E /* v18.mp3 in Resources */,
+				BA987CA33008D1270018A94E /* p23.jpg in Resources */,
+				BA987CA43008D1270018A94E /* المفيد في التجويد.html in Resources */,
+				BA987CA53008D1270018A94E /* v1.mp3 in Resources */,
+				BA987CA63008D1270018A94E /* p52.jpg in Resources */,
+				BA987CA73008D1270018A94E /* p16.jpg in Resources */,
+				BA987CA83008D1270018A94E /* v8.mp3 in Resources */,
+				BA987CA93008D1270018A94E /* p08.jpg in Resources */,
+				BA987CAA3008D1270018A94E /* p54.jpg in Resources */,
+				BA987CAB3008D1270018A94E /* الابتداء.html in Resources */,
+				BA987CAC3008D1270018A94E /* v7.mp3 in Resources */,
+				BA987CAD3008D1270018A94E /* القراءات.html in Resources */,
+				BA987CAE3008D1270018A94E /* تاء وهاء التأنيث.html in Resources */,
+				BA987CAF3008D1270018A94E /* p102.jpg in Resources */,
+				BA987CB03008D1270018A94E /* v13.mp3 in Resources */,
+				BA987CB13008D1270018A94E /* v25.mp3 in Resources */,
+				BA987CB23008D1270018A94E /* سلسلة السند.html in Resources */,
+				BA987CB33008D1270018A94E /* p20.jpg in Resources */,
+				BA987CB43008D1270018A94E /* p09.jpg in Resources */,
+				BA987CB53008D1270018A94E /* p36.jpg in Resources */,
+				BA987CB63008D1270018A94E /* p44.jpg in Resources */,
+				BA987CB73008D1270018A94E /* p105.jpg in Resources */,
+				BA987CB83008D1270018A94E /* التجويد.html in Resources */,
+				BA987CB93008D1270018A94E /* p35.jpg in Resources */,
+				BA987CBA3008D1270018A94E /* p67.jpg in Resources */,
+				BA987CBB3008D1270018A94E /* همزة القطع وهمزة الوصل.html in Resources */,
+				BA987CBC3008D1270018A94E /* الحروف والأصوات.html in Resources */,
+				BA987CBD3008D1270018A94E /* p12.jpg in Resources */,
+				BA987CBE3008D1270018A94E /* v30.mp3 in Resources */,
+				BA987CBF3008D1270018A94E /* القطع.html in Resources */,
+				BA987CC03008D1270018A94E /* p24.jpg in Resources */,
+				BA987CC13008D1270018A94E /* v2.mp3 in Resources */,
+				BA987CC23008D1270018A94E /* v3.mp3 in Resources */,
+				BA987CC33008D1270018A94E /* v15.mp3 in Resources */,
+				BA987CC43008D1270018A94E /* القراء العشرة.html in Resources */,
+				BA987CC53008D1270018A94E /* الاستعاذة والبسملة.html in Resources */,
+				BA987CC63008D1270018A94E /* v24.mp3 in Resources */,
+				BA987CC73008D1270018A94E /* p100.jpg in Resources */,
+				BA987CC83008D1270018A94E /* p10.jpg in Resources */,
+				BA987CC93008D1270018A94E /* p103.jpg in Resources */,
+				BA987CCA3008D1270018A94E /* p41.jpg in Resources */,
+				BA987CCB3008D1270018A94E /* p51.jpg in Resources */,
+				BA987CCC3008D1270018A94E /* p38.jpg in Resources */,
+				BA987CCD3008D1270018A94E /* v10.mp3 in Resources */,
+				BA987CCE3008D1270018A94E /* التفخيم والترقيق.html in Resources */,
+				BA987CCF3008D1270018A94E /* fhafs.otf in Resources */,
+				BA987CD03008D1270018A94E /* p05.jpg in Resources */,
+				BA987CD13008D1270018A94E /* النون الساكنة والتنوين.html in Resources */,
+				BA987CD23008D1270018A94E /* p45.jpg in Resources */,
+				BA987CD33008D1270018A94E /* p29.jpg in Resources */,
+				BA987CD43008D1270018A94E /* p15.jpg in Resources */,
+				BA987CD53008D1270018A94E /* المدود.html in Resources */,
+				BA987CD63008D1270018A94E /* p31.jpg in Resources */,
+				BA987CD73008D1270018A94E /* v19.mp3 in Resources */,
+				BA987CD83008D1270018A94E /* p42.jpg in Resources */,
+				BA987CD93008D1270018A94E /* v17.mp3 in Resources */,
+				BA987CDA3008D1270018A94E /* v20.mp3 in Resources */,
+				BA987CDB3008D1270018A94E /* المقطوع والموصول.html in Resources */,
+				BA987CDC3008D1270018A94E /* v27.mp3 in Resources */,
+				BA987CDD3008D1270018A94E /* p07.jpg in Resources */,
+				BA987CDE3008D1270018A94E /* p02.jpg in Resources */,
+				BA987CDF3008D1270018A94E /* p26.jpg in Resources */,
+				BA987CE03008D1270018A94E /* الوقف على نعم وبلى وكلا.html in Resources */,
+				BA987CE13008D1270018A94E /* p104.jpg in Resources */,
+				BA987CE23008D1270018A94E /* v6.mp3 in Resources */,
+				BA987CE33008D1270018A94E /* v11.mp3 in Resources */,
+				BA987CE43008D1270018A94E /* p04.jpg in Resources */,
+				BA987CE53008D1270018A94E /* v16.mp3 in Resources */,
+				BA987CE63008D1270018A94E /* السلسبيل الشافي.html in Resources */,
+				BA987CE73008D1270018A94E /* تدوين المصحف.html in Resources */,
+				BA987CE83008D1270018A94E /* رائية الخاقاني.html in Resources */,
+				BA987CE93008D1270018A94E /* p40.jpg in Resources */,
+				BA987CEA3008D1270018A94E /* v21.mp3 in Resources */,
+				BA987CEB3008D1270018A94E /* هاء الكناية.html in Resources */,
+				BA987CEC3008D1270018A94E /* ياءات الإضافة والزوائد.html in Resources */,
+				BA987CED3008D1270018A94E /* v9.mp3 in Resources */,
+				BA987CEE3008D1270018A94E /* اللام الساكنة.html in Resources */,
+				BA987CEF3008D1270018A94E /* v12.mp3 in Resources */,
+				BA987CF03008D1270018A94E /* لآلئ البيان.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,8 +1534,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 396QC56S43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "----------Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,8 +1567,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 396QC56S43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "----------Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
