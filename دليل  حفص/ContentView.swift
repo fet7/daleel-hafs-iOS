@@ -173,29 +173,35 @@ struct ContentView: View {
 
                 // MARK: Menu overlay
                 if showMenu {
-                    Color.black.opacity(0.4)
-                        .ignoresSafeArea()
-                        .onTapGesture {
-                            withAnimation(.easeInOut) { showMenu = false }
-                        }
-                        .zIndex(3)
-
-                    HStack {
-                        Spacer()
-                        SideMenuView(showMenu: $showMenu) { item in
-                            switch item {
-                            case "about":
-                                withAnimation(.easeInOut(duration: 0.35)) { showAbout = true }
-                            case "share":
-                                showShareSheet = true
-                            default:
-                                break
+                    ZStack {
+                        // Dimming background
+                        Color.black.opacity(0.4)
+                            .ignoresSafeArea()
+                            .onTapGesture {
+                                withAnimation(.easeInOut) { showMenu = false }
                             }
+
+                        HStack {
+                            Spacer()
+                            SideMenuView(showMenu: $showMenu) { item in
+                                switch item {
+                                case "about":
+                                    withAnimation(.easeInOut(duration: 0.35)) { showAbout = true }
+                                case "share":
+                                    showShareSheet = true
+                                default:
+                                    break
+                                }
+                            }
+                            .frame(width: 280)
+                            .transition(
+                                .move(edge: .leading)
+                            )
+                            .environment(\.layoutDirection, .rightToLeft)
                         }
-                        .transition(.move(edge: .trailing))
-                        .zIndex(4)
+                        .ignoresSafeArea()
                     }
-                    .ignoresSafeArea()
+                    .zIndex(4)
                 }
             }
             .sheet(isPresented: $showShareSheet) {
@@ -259,7 +265,7 @@ struct CustomNavigationBar: View {
                 Spacer()
 
                 Text("دليل (حفص)")
-                    .font(.title3).bold()
+                    .font(.custom("KFGQPCUthmanicScriptHAFS", size: 20))
                     .foregroundColor(.white)
 
                 Spacer()
@@ -283,28 +289,28 @@ struct BookCardView: View {
     let book: Book
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .trailing, spacing: 8) {
             Text(book.title)
-                .font(.headline).bold()
+                .font(.custom("KFGQPCUthmanicScriptHAFS", size: 22))
                 .foregroundColor(.brandTeal)
-                .multilineTextAlignment(.leading)
+                .multilineTextAlignment(.trailing)
 
             Spacer().frame(height: 8)
 
             Text(book.description)
-                .font(.subheadline)
+                .font(.custom("GeezaPro", size: 16))
                 .foregroundColor(.secondary)
-                .multilineTextAlignment(.leading)
+                .multilineTextAlignment(.trailing)
                 .lineLimit(4)
-                .lineSpacing(4)
+                .lineSpacing(8)
 
             Spacer().frame(height: 12)
 
             HStack {
-                Spacer()
                 Text("انقر للمزيد ...")
-                    .font(.caption).bold()
+                    .font(.custom("KFGQPCUthmanicScriptHAFS", size: 20))
                     .foregroundColor(.brandTeal)
+                Spacer()
             }
 
             Image("separator")
@@ -330,11 +336,10 @@ struct ReaderContainer: View {
         NavigationStack {
             ReaderView(fileName: fileName)
                 .ignoresSafeArea(edges: .bottom)
-                .navigationTitle(title)
                 .navigationBarTitleDisplayMode(.inline)
                 .navigationBarBackButtonHidden(true)
                 .toolbar {
-                    ToolbarItem(placement: .topBarLeading) { 
+                    ToolbarItem(placement: .topBarLeading) {
                         Button(action: onClose) {
                             Image(systemName: "chevron.backward")
                                 .font(.system(size: 17, weight: .semibold))
@@ -356,7 +361,8 @@ struct SideMenuView: View {
     var onItemSelected: (String) -> Void
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
+        VStack(spacing: 0) {
+            // Header
             VStack {
                 Spacer()
                 Image("tinted")
@@ -370,6 +376,7 @@ struct SideMenuView: View {
             .frame(height: 200)
             .background(Color.brandTeal)
 
+            // Menu items
             ScrollView {
                 VStack(spacing: 0) {
                     DrawerItem(icon: "book.closed.fill", title: "المكتبة القرءانية") {
@@ -413,10 +420,10 @@ struct DrawerItem: View {
             HStack(spacing: 16) {
                 Image(systemName: icon)
                     .font(.title3)
-                    .foregroundColor(isDestructive ? .red : .brandTeal)
+                    .foregroundColor(.brandTeal)
                     .frame(width: 24, height: 24)
                 Text(title)
-                    .foregroundColor(isDestructive ? .red : .primary)
+                    .font(.custom("KFGQPCUthmanicScriptHAFS", size: 17))
                 Spacer()
             }
             .padding(.horizontal, 20)
