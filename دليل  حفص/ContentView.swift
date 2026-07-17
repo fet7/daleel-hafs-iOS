@@ -118,6 +118,7 @@ struct ContentView: View {
                 VStack {
                     Spacer()
                     HStack {
+                        Spacer()
                         Button {
                             withAnimation { scrollProxy.scrollTo("top", anchor: .top) }
                         } label: {
@@ -129,9 +130,8 @@ struct ContentView: View {
                                 .clipShape(Circle())
                                 .shadow(color: .black.opacity(0.3), radius: 4, x: 0, y: 3)
                         }
-                        .padding(.leading, 20)
+                        .padding(.trailing, 20)
                         .padding(.bottom, 20)
-                        Spacer()
                     }
                 }
 
@@ -147,8 +147,8 @@ struct ContentView: View {
                         }
                     )
                     .transition(.asymmetric(
-                        insertion: .move(edge: .leading),
-                        removal: .move(edge: .leading)
+                        insertion: .move(edge: .trailing),
+                        removal: .move(edge: .trailing)
                     ))
                     .zIndex(2)
                 }
@@ -165,8 +165,8 @@ struct ContentView: View {
                         }
                     )
                     .transition(.asymmetric(
-                        insertion: .move(edge: .leading),
-                        removal: .move(edge: .leading)
+                        insertion: .move(edge: .trailing),
+                        removal: .move(edge: .trailing)
                     ))
                     .zIndex(2)
                 }
@@ -182,7 +182,7 @@ struct ContentView: View {
                             }
 
                         HStack {
-                            Spacer()
+                            
                             SideMenuView(showMenu: $showMenu) { item in
                                 switch item {
                                 case "about":
@@ -198,6 +198,8 @@ struct ContentView: View {
                                 .move(edge: .leading)
                             )
                             .environment(\.layoutDirection, .rightToLeft)
+                            
+                            Spacer()
                         }
                         .ignoresSafeArea()
                     }
@@ -221,43 +223,58 @@ struct CustomNavigationBar: View {
     var body: some View {
         HStack {
             if isSearchActive {
-                HStack {
+                // Search bar with proper styling
+                HStack(spacing: 8) {
                     Image(systemName: "magnifyingglass")
                         .foregroundColor(.white.opacity(0.7))
-                    TextField("بحث...", text: $searchText)
+                        .font(.system(size: 17, weight: .semibold))
+                    
+                    TextField("بحث في الكتب...", text: $searchText)
                         .focused($isFocused)
                         .foregroundColor(.white)
                         .accentColor(.white)
-                    Button {
-                        withAnimation {
-                            isSearchActive = false
-                            searchText = ""
+                        .font(.custom("KFGQPCUthmanicScriptHAFS", size: 16))
+                    
+                    if !searchText.isEmpty {
+                        Button {
+                            withAnimation {
+                                searchText = ""
+                            }
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .foregroundColor(.white.opacity(0.7))
+                                .font(.system(size: 20))
                         }
-                    } label: {
-                        Image(systemName: "xmark.circle.fill")
-                            .foregroundColor(.white.opacity(0.7))
                     }
                 }
-                .padding(8)
-                .background(Color.white.opacity(0.2))
-                .cornerRadius(8)
-                .frame(width: 200)
+                .padding(.horizontal, 12)
+                .padding(.vertical, 10)
+                .background(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .fill(Color.white.opacity(0.15))
+                )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 12, style: .continuous)
+                        .stroke(Color.white.opacity(0.2), lineWidth: 1)
+                )
 
                 Spacer()
 
-                Button(action: { withAnimation { showMenu = true } }) {
-                    Image(systemName: "line.3.horizontal")
-                        .font(.title2)
+                // Cancel button
+                Button {
+                    withAnimation(.easeInOut(duration: 0.2)) {
+                        isSearchActive = false
+                        searchText = ""
+                        isFocused = false
+                    }
+                } label: {
+                    Text("إلغاء")
+                        .font(.custom("KFGQPCUthmanicScriptHAFS", size: 16))
                         .foregroundColor(.white)
                 }
             } else {
-                Button(action: {
-                    withAnimation {
-                        isSearchActive = true
-                        isFocused = true
-                    }
-                }) {
-                    Image(systemName: "magnifyingglass")
+                Button(action: { withAnimation { showMenu = true } }) {
+                    Image(systemName: "line.3.horizontal")
                         .font(.title2)
                         .foregroundColor(.white)
                 }
@@ -270,8 +287,13 @@ struct CustomNavigationBar: View {
 
                 Spacer()
 
-                Button(action: { withAnimation { showMenu = true } }) {
-                    Image(systemName: "line.3.horizontal")
+                Button(action: {
+                    withAnimation {
+                        isSearchActive = true
+                        isFocused = true
+                    }
+                }) {
+                    Image(systemName: "magnifyingglass")
                         .font(.title2)
                         .foregroundColor(.white)
                 }
@@ -293,24 +315,27 @@ struct BookCardView: View {
             Text(book.title)
                 .font(.custom("KFGQPCUthmanicScriptHAFS", size: 22))
                 .foregroundColor(.brandTeal)
-                .multilineTextAlignment(.trailing)
+                .multilineTextAlignment(.leading)
+                .frame(maxWidth: .infinity, alignment: .leading)
+            
 
             Spacer().frame(height: 8)
 
             Text(book.description)
                 .font(.custom("GeezaPro", size: 16))
                 .foregroundColor(.secondary)
-                .multilineTextAlignment(.trailing)
+                .multilineTextAlignment(.leading)
                 .lineLimit(4)
                 .lineSpacing(8)
 
             Spacer().frame(height: 12)
 
             HStack {
+                Spacer()
                 Text("انقر للمزيد ...")
                     .font(.custom("KFGQPCUthmanicScriptHAFS", size: 20))
                     .foregroundColor(.brandTeal)
-                Spacer()
+                
             }
 
             Image("separator")
@@ -342,11 +367,7 @@ struct ReaderContainer: View {
                     ToolbarItem(placement: .topBarLeading) {
                         Button(action: onClose) {
                             Image(systemName: "chevron.backward")
-                                .font(.system(size: 17, weight: .semibold))
-                                .foregroundColor(.primary)
-                                .frame(width: 32, height: 32)
-                                .background(Color(.systemGray5))
-                                .clipShape(Circle())
+                                .foregroundColor(.black)
                         }
                     }
                 }
