@@ -67,8 +67,8 @@ Arabic filenames can differ only in Unicode normalization, particularly around d
 </p>
 
 <p align="center">
-  <img src="Screenshots/04-darkModeReader.png" width="200" alt="Daleel Hafs reader in dark appearance">
-  <img src="Screenshots/05-DarkModeAbout.png" width="200" alt="Daleel Hafs About">
+  <img src="Screenshots/04-dark-mode-reader.png" width="200" alt="Daleel Hafs reader in dark appearance">
+  <img src="Screenshots/05-dark-mode-about.png" width="200" alt="Daleel Hafs About">
 </p>
 
 ## Attribution and copyright
